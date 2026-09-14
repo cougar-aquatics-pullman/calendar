@@ -7,7 +7,30 @@
     "type": "important",
     "detail": "All day",
     "location": "",
-    "allDay": true
+    "allDay": true,
+    "source": "google"
+  },
+  {
+    "date": "2026-10-16",
+    "start": "2026-10-16T07:00:00.000Z",
+    "end": "2026-10-18T07:00:00.000Z",
+    "title": "COUG Fall Fury",
+    "type": "meet",
+    "detail": "12:00 AM ? 12:00 AM",
+    "location": "",
+    "allDay": false,
+    "source": "gomotion"
+  },
+  {
+    "date": "2026-10-25",
+    "start": "2026-10-25T07:00:00.000Z",
+    "end": "2026-10-25T07:00:00.000Z",
+    "title": "VAN Trick-or-Treat",
+    "type": "meet",
+    "detail": "12:00 AM ? 12:00 AM",
+    "location": "",
+    "allDay": false,
+    "source": "gomotion"
   },
   {
     "date": "2026-11-05",
@@ -17,7 +40,8 @@
     "type": "important",
     "detail": "All day",
     "location": "",
-    "allDay": true
+    "allDay": true,
+    "source": "google"
   },
   {
     "date": "2026-11-25",
@@ -27,7 +51,8 @@
     "type": "important",
     "detail": "All day",
     "location": "",
-    "allDay": true
+    "allDay": true,
+    "source": "google"
   },
   {
     "date": "2026-11-26",
@@ -37,7 +62,8 @@
     "type": "important",
     "detail": "All day",
     "location": "",
-    "allDay": true
+    "allDay": true,
+    "source": "google"
   },
   {
     "date": "2026-12-23",
@@ -47,7 +73,8 @@
     "type": "important",
     "detail": "All day",
     "location": "",
-    "allDay": true
+    "allDay": true,
+    "source": "google"
   },
   {
     "date": "2026-12-24",
@@ -57,7 +84,8 @@
     "type": "important",
     "detail": "All day",
     "location": "",
-    "allDay": true
+    "allDay": true,
+    "source": "google"
   },
   {
     "date": "2026-12-25",
@@ -67,6 +95,7 @@
     "type": "important",
     "detail": "All day",
     "location": "",
-    "allDay": true
+    "allDay": true,
+    "source": "google"
   }
 ]
