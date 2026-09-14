@@ -15,6 +15,7 @@ body{
   font-family:-apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif;
   -webkit-font-smoothing:antialiased;
 }
+button{font:inherit}
 .masthead{background:#fff;border-bottom:1px solid #e7e7e5}
 .mast-inner{
   max-width:1180px;margin:auto;padding:18px 26px;
@@ -24,24 +25,31 @@ body{
 .mast-label{font-size:11px;letter-spacing:.22em;font-weight:700;color:#666}
 main{max-width:1180px;margin:auto;padding:48px 26px 70px}
 .title-row{display:flex;justify-content:space-between;align-items:flex-end;gap:30px}
-.kicker{margin:0 0 8px;color:var(--red);font-size:13px;letter-spacing:.18em;font-weight:800}
+.kicker{margin:0 0 8px;color:var(--red);font-size:10px;letter-spacing:.21em;font-weight:800}
+.title-kicker{font-size:15px;letter-spacing:.16em;margin-bottom:9px}
 h1{font-family:Georgia,"Times New Roman",serif;font-size:50px;font-weight:400;letter-spacing:-.035em;margin:0}
-.dek{margin:10px 0 0;color:var(--muted);font-family:Georgia,"Times New Roman",serif;font-size:17px;line-height:1.5}
 .season-note{font-size:10px;letter-spacing:.18em;font-weight:700;color:#777;padding-bottom:7px}
 .rule{height:3px;background:var(--ink);margin:29px 0 20px}
-.controls{display:flex;align-items:center;justify-content:space-between;gap:22px;margin-bottom:16px}
+.controls{display:flex;align-items:center;justify-content:space-between;gap:22px;margin-bottom:10px}
 .month-nav{display:flex;align-items:center;gap:14px}
 .month-nav h2{font-family:Georgia,"Times New Roman",serif;font-size:25px;font-weight:400;min-width:205px;text-align:center;margin:0}
 .month-nav button{
-  border:0;background:transparent;font-size:20px;color:#444;width:34px;height:34px;border-radius:50%
+  border:0;background:transparent;font-size:20px;color:#444;width:38px;height:38px;border-radius:50%;cursor:pointer
 }
 .month-nav button:hover{background:#eee}
 .filters{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:4px}
 .filters button{
-  border:0;border-bottom:2px solid transparent;background:transparent;
+  border:0;border-bottom:2px solid transparent;background:transparent;cursor:pointer;
   padding:8px 10px;color:#686868;font-size:12px
 }
 .filters button.active{color:var(--ink);border-bottom-color:var(--red);font-weight:700}
+.group-key{
+  display:flex;align-items:center;flex-wrap:wrap;gap:6px 18px;
+  padding:8px 0 15px;color:#6f7174;font-size:10px
+}
+.group-key strong{color:#444;text-transform:uppercase;letter-spacing:.1em;font-size:9px}
+.group-key span{white-space:nowrap}
+.group-key b{color:var(--ink);font-weight:800;margin-right:3px}
 .calendar-layout{
   display:grid;grid-template-columns:minmax(0,1fr) 285px;
   border-top:1px solid var(--ink);border-bottom:1px solid var(--ink)
@@ -54,8 +62,8 @@ h1{font-family:Georgia,"Times New Roman",serif;font-size:50px;font-weight:400;le
   letter-spacing:.1em;font-size:9px;color:#737373
 }
 .day{
-  min-height:120px;padding:8px 7px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);
-  background:#fff;font-size:11px
+  min-height:128px;padding:8px 7px;border-right:1px solid var(--line);border-bottom:1px solid var(--line);
+  background:#fff;font-size:11px;min-width:0
 }
 .day:nth-child(7n){border-right:0}
 .day.muted{background:#f8f8f7;color:#aaa}
@@ -63,15 +71,22 @@ h1{font-family:Georgia,"Times New Roman",serif;font-size:50px;font-weight:400;le
 .ev{
   display:block;width:100%;border:0;border-left:3px solid;padding:5px 5px;margin-top:6px;
   text-align:left;background:transparent!important;color:var(--ink)!important;
-  font-size:9px;line-height:1.25;font-weight:600;border-radius:0
+  font-size:9px;line-height:1.25;border-radius:0;overflow-wrap:anywhere
 }
+.ev-time{
+  display:block;color:#161719;font-size:10px;line-height:1.15;font-weight:800;
+  margin-bottom:2px;white-space:nowrap
+}
+.ev-title{display:block;font-weight:600;color:#35373a}
 .ev.meet{border-left-color:var(--meet)}
 .ev.practice{border-left-color:var(--practice)}
 .ev.club{border-left-color:var(--club)}
 .ev.important{border-left-color:var(--important)}
 aside{border-left:1px solid var(--ink);padding:19px 21px 24px;background:#f6f6f4}
 .aside-head{padding-bottom:11px;border-bottom:1px solid var(--ink)}
-.aside-head h2{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:25px;margin:0}
+.aside-head h2,.mobile-important h2,.mobile-agenda-head h2{
+  font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:25px;margin:0
+}
 .imp{
   display:grid;grid-template-columns:46px 1fr;gap:13px;
   padding:15px 0;border-bottom:1px solid #d9d9d6
@@ -80,29 +95,70 @@ aside{border-left:1px solid var(--ink);padding:19px 21px 24px;background:#f6f6f4
 .date em{display:block;font-style:normal;color:var(--red);font-size:9px;letter-spacing:.12em;font-weight:800}
 .date strong{font-family:Georgia,"Times New Roman",serif;font-size:25px;font-weight:400}
 .imp b{font-family:Georgia,"Times New Roman",serif;font-size:14px;font-weight:600}
-.imp p{margin:5px 0 0;color:var(--muted);font-size:10px;line-height:1.45}
+.imp .imp-time{font-family:inherit;font-size:11px;font-weight:800;color:#313336;display:block;margin-top:4px}
+.imp p{margin:4px 0 0;color:var(--muted);font-size:10px;line-height:1.45}
 .key{display:flex;gap:24px;flex-wrap:wrap;padding:14px 0;color:#777;font-size:10px}
 .key span{display:flex;align-items:center;gap:7px}
 .key i{display:block;width:12px;height:2px}
 .key i.meet{background:var(--meet)}.key i.practice{background:var(--practice)}
 .key i.club{background:var(--club)}.key i.important{background:var(--important)}
+.mobile-calendar{display:none}
 footer{
   max-width:1180px;margin:0 auto 35px;padding:16px 26px;border-top:1px solid #ddd;
   display:flex;justify-content:space-between;color:#888;font-size:9px;letter-spacing:.16em
 }
+
+/* Mobile agenda */
+.mobile-important{
+  background:#f5f5f3;border-top:1px solid var(--ink);border-bottom:1px solid var(--ink);
+  padding:18px 17px 5px;margin-top:5px
+}
+.mobile-important .imp{grid-template-columns:48px 1fr}
+.mobile-agenda-head{padding:28px 0 9px;border-bottom:1px solid var(--ink)}
+.agenda-day{border-bottom:1px solid #dcdcd9}
+.agenda-date{
+  display:grid;grid-template-columns:48px 1fr;gap:12px;align-items:baseline;padding:16px 0 6px
+}
+.agenda-date .dow{
+  color:var(--red);font-size:10px;font-weight:800;letter-spacing:.13em;text-transform:uppercase
+}
+.agenda-date .full-date{
+  font-family:Georgia,"Times New Roman",serif;font-size:18px
+}
+.agenda-event{
+  display:grid;grid-template-columns:92px 1fr;gap:12px;padding:8px 0 13px;margin-left:60px;
+  border-top:1px solid #ececea
+}
+.agenda-event:first-of-type{border-top:0}
+.agenda-time{font-size:12px;font-weight:800;color:#222}
+.agenda-time.all-day{font-size:10px;text-transform:uppercase;letter-spacing:.08em;color:#74777b}
+.agenda-copy{border-left:3px solid;padding-left:10px;min-width:0}
+.agenda-copy.meet{border-color:var(--meet)}
+.agenda-copy.practice{border-color:var(--practice)}
+.agenda-copy.club{border-color:var(--club)}
+.agenda-copy.important{border-color:var(--important)}
+.agenda-title{font-size:13px;font-weight:650;line-height:1.35}
+.agenda-location{margin-top:3px;color:var(--muted);font-size:10px;line-height:1.35}
+.agenda-empty{padding:24px 0;color:var(--muted);font-family:Georgia,"Times New Roman",serif;font-style:italic}
+
 @media(max-width:800px){
   .season-note{display:none}.title-row{display:block}
-  .controls{align-items:flex-start;flex-direction:column}
-  .filters{justify-content:flex-start}
-  .calendar-layout{grid-template-columns:1fr}
-  .calendar-area{overflow-x:auto}
-  .week,.grid{min-width:700px}
-  aside{border-left:0;border-top:1px solid var(--ink)}
+  .controls{align-items:flex-start;flex-direction:column;margin-bottom:8px}
+  .filters{justify-content:flex-start;gap:2px}
+  .filters button{padding:8px 8px;font-size:11px}
+  .group-key{padding-top:3px;padding-bottom:15px;gap:5px 13px}
+  .desktop-calendar{display:none}
+  .mobile-calendar{display:block}
   h1{font-size:41px}
 }
 @media(max-width:500px){
   .mast-inner{padding:15px 17px}.logo{width:205px}.mast-label{display:none}
   main{padding:34px 17px 55px}
+  .title-kicker{font-size:13px}
+  .month-nav{width:100%;justify-content:space-between}
+  .month-nav h2{font-size:23px;min-width:0}
+  .agenda-event{grid-template-columns:80px 1fr;margin-left:0}
+  .agenda-date{grid-template-columns:48px 1fr}
   footer{margin:0 17px 25px;padding:14px 0;display:block}
   footer span{display:block;margin-bottom:5px}
 }

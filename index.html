@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
 <title>Cougar Aquatics — Club Calendar</title>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -17,9 +18,9 @@
 <main>
   <section class="title-row">
     <div>
-      <p class="kicker">COUGAR AQUATICS</p>
+      <p class="kicker title-kicker">COUGAR AQUATICS</p>
       <h1>Club Calendar</h1>
-          </div>
+    </div>
     <div class="season-note">2026–27 SEASON</div>
   </section>
 
@@ -31,7 +32,8 @@
       <h2 id="month"></h2>
       <button id="next" aria-label="Next month">→</button>
     </div>
-    <div class="filters">
+
+    <div class="filters" aria-label="Calendar filters">
       <button data-f="all" class="active">All</button>
       <button data-f="meet">Meets</button>
       <button data-f="practice">Practices</button>
@@ -40,28 +42,53 @@
     </div>
   </section>
 
-  <section class="calendar-layout">
-    <div class="calendar-area">
-      <div class="week">
-        <b>Sun</b><b>Mon</b><b>Tue</b><b>Wed</b><b>Thu</b><b>Fri</b><b>Sat</b>
-      </div>
-      <div id="grid" class="grid"></div>
-    </div>
-
-    <aside>
-      <div class="aside-head">
-        <p class="kicker">KEEP AN EYE ON</p>
-        <h2>Important Dates</h2>
-      </div>
-      <div id="important"></div>
-    </aside>
+  <section class="group-key" aria-label="Practice group abbreviations">
+    <strong>Practice groups</strong>
+    <span><b>Cb</b> Cubs</span>
+    <span><b>Jr</b> Juniors</span>
+    <span><b>Cg</b> Cougs</span>
+    <span><b>Sr</b> Seniors</span>
+    <span><b>Nat</b> National</span>
   </section>
 
-  <section class="key">
-    <span><i class="meet"></i> Meets</span>
-    <span><i class="practice"></i> Practices</span>
-    <span><i class="club"></i> Club Events</span>
-    <span><i class="important"></i> Important Days</span>
+  <section class="desktop-calendar">
+    <div class="calendar-layout">
+      <div class="calendar-area">
+        <div class="week">
+          <b>Sun</b><b>Mon</b><b>Tue</b><b>Wed</b><b>Thu</b><b>Fri</b><b>Sat</b>
+        </div>
+        <div id="grid" class="grid"></div>
+      </div>
+
+      <aside>
+        <div class="aside-head">
+          <p class="kicker">KEEP AN EYE ON</p>
+          <h2>Important Dates</h2>
+        </div>
+        <div id="important"></div>
+      </aside>
+    </div>
+
+    <section class="key">
+      <span><i class="meet"></i> Meets</span>
+      <span><i class="practice"></i> Practices</span>
+      <span><i class="club"></i> Club Events</span>
+      <span><i class="important"></i> Important Days</span>
+    </section>
+  </section>
+
+  <section class="mobile-calendar">
+    <div class="mobile-important">
+      <p class="kicker">KEEP AN EYE ON</p>
+      <h2>Important Dates</h2>
+      <div id="mobile-important-list"></div>
+    </div>
+
+    <div class="mobile-agenda-head">
+      <p class="kicker">THIS MONTH</p>
+      <h2>Schedule</h2>
+    </div>
+    <div id="agenda" class="agenda"></div>
   </section>
 </main>
 
