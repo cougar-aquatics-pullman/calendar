@@ -1,5 +1,16 @@
 [
   {
+    "date": "2026-09-14",
+    "start": "2026-09-14T17:00:00.000Z",
+    "end": "2026-09-14T19:00:00.000Z",
+    "title": "Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "10:00 AM ? 12:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2026-10-09",
     "start": "2026-10-10T00:00:00.000Z",
     "end": "2026-10-11T00:00:00.000Z",
