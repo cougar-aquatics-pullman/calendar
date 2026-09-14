@@ -29,7 +29,25 @@
   {
     "date": "2026-11-06",
     "start": "2026-11-06T08:00:00.000Z",
-    "title": "Afternoon practice (WSU Meet)",
+    "title": "Afternoon practices cancelled (WSU Meet)",
+    "type": "important",
+    "detail": "All day",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "date": "2026-11-26",
+    "start": "2026-11-26T08:00:00.000Z",
+    "title": "All practices cancelled",
+    "type": "important",
+    "detail": "All day",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "date": "2026-11-27",
+    "start": "2026-11-27T08:00:00.000Z",
+    "title": "All practices cancelled",
     "type": "important",
     "detail": "All day",
     "location": "",
