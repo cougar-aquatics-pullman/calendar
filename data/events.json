@@ -1,16 +1,5 @@
 [
   {
-    "date": "2026-09-14",
-    "start": "2026-09-15T00:00:00.000Z",
-    "end": "2026-09-15T02:00:00.000Z",
-    "title": "PRACTICE: Cb, Cg, Sr, Nat",
-    "type": "practice",
-    "detail": "5:00 PM ? 7:00 PM",
-    "location": "",
-    "allDay": false,
-    "source": "google"
-  },
-  {
     "date": "2026-09-15",
     "start": "2026-09-16T00:00:00.000Z",
     "end": "2026-09-16T02:00:00.000Z",
@@ -48,6 +37,17 @@
     "start": "2026-09-19T00:00:00.000Z",
     "end": "2026-09-19T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2026-09-21",
+    "start": "2026-09-22T00:00:00.000Z",
+    "end": "2026-09-22T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -99,6 +99,17 @@
     "source": "google"
   },
   {
+    "date": "2026-09-28",
+    "start": "2026-09-29T00:00:00.000Z",
+    "end": "2026-09-29T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2026-09-29",
     "start": "2026-09-30T00:00:00.000Z",
     "end": "2026-09-30T02:00:00.000Z",
@@ -136,6 +147,17 @@
     "start": "2026-10-03T00:00:00.000Z",
     "end": "2026-10-03T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2026-10-05",
+    "start": "2026-10-06T00:00:00.000Z",
+    "end": "2026-10-06T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -195,6 +217,17 @@
     "detail": "All day",
     "location": "",
     "allDay": true,
+    "source": "google"
+  },
+  {
+    "date": "2026-10-12",
+    "start": "2026-10-13T00:00:00.000Z",
+    "end": "2026-10-13T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
     "source": "google"
   },
   {
@@ -275,6 +308,17 @@
     "source": "gomotion"
   },
   {
+    "date": "2026-10-19",
+    "start": "2026-10-20T00:00:00.000Z",
+    "end": "2026-10-20T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2026-10-20",
     "start": "2026-10-21T00:00:00.000Z",
     "end": "2026-10-21T02:00:00.000Z",
@@ -330,6 +374,17 @@
     "source": "gomotion"
   },
   {
+    "date": "2026-10-26",
+    "start": "2026-10-27T00:00:00.000Z",
+    "end": "2026-10-27T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2026-10-27",
     "start": "2026-10-28T00:00:00.000Z",
     "end": "2026-10-28T02:00:00.000Z",
@@ -369,6 +424,17 @@
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2026-11-02",
+    "start": "2026-11-03T00:00:00.000Z",
+    "end": "2026-11-03T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
     "location": "",
     "allDay": false,
     "source": "google"
@@ -429,6 +495,17 @@
     "source": "google"
   },
   {
+    "date": "2026-11-09",
+    "start": "2026-11-10T00:00:00.000Z",
+    "end": "2026-11-10T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2026-11-10",
     "start": "2026-11-11T00:00:00.000Z",
     "end": "2026-11-11T02:00:00.000Z",
@@ -473,6 +550,17 @@
     "source": "google"
   },
   {
+    "date": "2026-11-16",
+    "start": "2026-11-17T00:00:00.000Z",
+    "end": "2026-11-17T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2026-11-17",
     "start": "2026-11-18T00:00:00.000Z",
     "end": "2026-11-18T02:00:00.000Z",
@@ -510,6 +598,17 @@
     "start": "2026-11-21T00:00:00.000Z",
     "end": "2026-11-21T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2026-11-23",
+    "start": "2026-11-24T00:00:00.000Z",
+    "end": "2026-11-24T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "4:00 PM ? 6:00 PM",
     "location": "",
@@ -583,6 +682,17 @@
     "source": "google"
   },
   {
+    "date": "2026-11-30",
+    "start": "2026-12-01T00:00:00.000Z",
+    "end": "2026-12-01T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2026-12-01",
     "start": "2026-12-02T00:00:00.000Z",
     "end": "2026-12-02T02:00:00.000Z",
@@ -620,6 +730,17 @@
     "start": "2026-12-05T00:00:00.000Z",
     "end": "2026-12-05T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2026-12-07",
+    "start": "2026-12-08T00:00:00.000Z",
+    "end": "2026-12-08T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "4:00 PM ? 6:00 PM",
     "location": "",
@@ -671,6 +792,17 @@
     "source": "google"
   },
   {
+    "date": "2026-12-14",
+    "start": "2026-12-15T00:00:00.000Z",
+    "end": "2026-12-15T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2026-12-15",
     "start": "2026-12-16T00:00:00.000Z",
     "end": "2026-12-16T02:00:00.000Z",
@@ -708,6 +840,17 @@
     "start": "2026-12-19T00:00:00.000Z",
     "end": "2026-12-19T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2026-12-21",
+    "start": "2026-12-22T00:00:00.000Z",
+    "end": "2026-12-22T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "4:00 PM ? 6:00 PM",
     "location": "",
@@ -792,6 +935,17 @@
     "source": "google"
   },
   {
+    "date": "2026-12-28",
+    "start": "2026-12-29T00:00:00.000Z",
+    "end": "2026-12-29T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2026-12-29",
     "start": "2026-12-30T00:00:00.000Z",
     "end": "2026-12-30T02:00:00.000Z",
@@ -829,6 +983,17 @@
     "start": "2027-01-02T00:00:00.000Z",
     "end": "2027-01-02T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-01-04",
+    "start": "2027-01-05T00:00:00.000Z",
+    "end": "2027-01-05T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "4:00 PM ? 6:00 PM",
     "location": "",
@@ -880,6 +1045,17 @@
     "source": "google"
   },
   {
+    "date": "2027-01-11",
+    "start": "2027-01-12T00:00:00.000Z",
+    "end": "2027-01-12T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-01-12",
     "start": "2027-01-13T00:00:00.000Z",
     "end": "2027-01-13T02:00:00.000Z",
@@ -917,6 +1093,17 @@
     "start": "2027-01-16T00:00:00.000Z",
     "end": "2027-01-16T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-01-18",
+    "start": "2027-01-19T00:00:00.000Z",
+    "end": "2027-01-19T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "4:00 PM ? 6:00 PM",
     "location": "",
@@ -968,6 +1155,17 @@
     "source": "google"
   },
   {
+    "date": "2027-01-25",
+    "start": "2027-01-26T00:00:00.000Z",
+    "end": "2027-01-26T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-01-26",
     "start": "2027-01-27T00:00:00.000Z",
     "end": "2027-01-27T02:00:00.000Z",
@@ -1005,6 +1203,17 @@
     "start": "2027-01-30T00:00:00.000Z",
     "end": "2027-01-30T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-02-01",
+    "start": "2027-02-02T00:00:00.000Z",
+    "end": "2027-02-02T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "4:00 PM ? 6:00 PM",
     "location": "",
@@ -1056,6 +1265,17 @@
     "source": "google"
   },
   {
+    "date": "2027-02-08",
+    "start": "2027-02-09T00:00:00.000Z",
+    "end": "2027-02-09T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-02-09",
     "start": "2027-02-10T00:00:00.000Z",
     "end": "2027-02-10T02:00:00.000Z",
@@ -1093,6 +1313,17 @@
     "start": "2027-02-13T00:00:00.000Z",
     "end": "2027-02-13T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-02-15",
+    "start": "2027-02-16T00:00:00.000Z",
+    "end": "2027-02-16T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "4:00 PM ? 6:00 PM",
     "location": "",
@@ -1144,6 +1375,17 @@
     "source": "google"
   },
   {
+    "date": "2027-02-22",
+    "start": "2027-02-23T00:00:00.000Z",
+    "end": "2027-02-23T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-02-23",
     "start": "2027-02-24T00:00:00.000Z",
     "end": "2027-02-24T02:00:00.000Z",
@@ -1181,6 +1423,17 @@
     "start": "2027-02-27T00:00:00.000Z",
     "end": "2027-02-27T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-03-01",
+    "start": "2027-03-02T00:00:00.000Z",
+    "end": "2027-03-02T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "4:00 PM ? 6:00 PM",
     "location": "",
@@ -1232,6 +1485,17 @@
     "source": "google"
   },
   {
+    "date": "2027-03-08",
+    "start": "2027-03-09T00:00:00.000Z",
+    "end": "2027-03-09T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-03-09",
     "start": "2027-03-10T00:00:00.000Z",
     "end": "2027-03-10T02:00:00.000Z",
@@ -1276,6 +1540,17 @@
     "source": "google"
   },
   {
+    "date": "2027-03-15",
+    "start": "2027-03-16T00:00:00.000Z",
+    "end": "2027-03-16T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-03-16",
     "start": "2027-03-17T00:00:00.000Z",
     "end": "2027-03-17T02:00:00.000Z",
@@ -1313,6 +1588,17 @@
     "start": "2027-03-20T00:00:00.000Z",
     "end": "2027-03-20T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-03-22",
+    "start": "2027-03-23T00:00:00.000Z",
+    "end": "2027-03-23T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -1364,6 +1650,17 @@
     "source": "google"
   },
   {
+    "date": "2027-03-29",
+    "start": "2027-03-30T00:00:00.000Z",
+    "end": "2027-03-30T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-03-30",
     "start": "2027-03-31T00:00:00.000Z",
     "end": "2027-03-31T02:00:00.000Z",
@@ -1401,6 +1698,17 @@
     "start": "2027-04-03T00:00:00.000Z",
     "end": "2027-04-03T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-04-05",
+    "start": "2027-04-06T00:00:00.000Z",
+    "end": "2027-04-06T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -1452,6 +1760,17 @@
     "source": "google"
   },
   {
+    "date": "2027-04-12",
+    "start": "2027-04-13T00:00:00.000Z",
+    "end": "2027-04-13T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-04-13",
     "start": "2027-04-14T00:00:00.000Z",
     "end": "2027-04-14T02:00:00.000Z",
@@ -1489,6 +1808,17 @@
     "start": "2027-04-17T00:00:00.000Z",
     "end": "2027-04-17T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-04-19",
+    "start": "2027-04-20T00:00:00.000Z",
+    "end": "2027-04-20T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -1540,6 +1870,17 @@
     "source": "google"
   },
   {
+    "date": "2027-04-26",
+    "start": "2027-04-27T00:00:00.000Z",
+    "end": "2027-04-27T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-04-27",
     "start": "2027-04-28T00:00:00.000Z",
     "end": "2027-04-28T02:00:00.000Z",
@@ -1577,6 +1918,17 @@
     "start": "2027-05-01T00:00:00.000Z",
     "end": "2027-05-01T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-05-03",
+    "start": "2027-05-04T00:00:00.000Z",
+    "end": "2027-05-04T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -1628,6 +1980,17 @@
     "source": "google"
   },
   {
+    "date": "2027-05-10",
+    "start": "2027-05-11T00:00:00.000Z",
+    "end": "2027-05-11T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-05-11",
     "start": "2027-05-12T00:00:00.000Z",
     "end": "2027-05-12T02:00:00.000Z",
@@ -1665,6 +2028,17 @@
     "start": "2027-05-15T00:00:00.000Z",
     "end": "2027-05-15T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-05-17",
+    "start": "2027-05-18T00:00:00.000Z",
+    "end": "2027-05-18T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -1716,6 +2090,17 @@
     "source": "google"
   },
   {
+    "date": "2027-05-24",
+    "start": "2027-05-25T00:00:00.000Z",
+    "end": "2027-05-25T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-05-25",
     "start": "2027-05-26T00:00:00.000Z",
     "end": "2027-05-26T02:00:00.000Z",
@@ -1753,6 +2138,17 @@
     "start": "2027-05-29T00:00:00.000Z",
     "end": "2027-05-29T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-05-31",
+    "start": "2027-06-01T00:00:00.000Z",
+    "end": "2027-06-01T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -1804,6 +2200,17 @@
     "source": "google"
   },
   {
+    "date": "2027-06-07",
+    "start": "2027-06-08T00:00:00.000Z",
+    "end": "2027-06-08T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-06-08",
     "start": "2027-06-09T00:00:00.000Z",
     "end": "2027-06-09T02:00:00.000Z",
@@ -1841,6 +2248,17 @@
     "start": "2027-06-12T00:00:00.000Z",
     "end": "2027-06-12T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-06-14",
+    "start": "2027-06-15T00:00:00.000Z",
+    "end": "2027-06-15T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -1892,6 +2310,17 @@
     "source": "google"
   },
   {
+    "date": "2027-06-21",
+    "start": "2027-06-22T00:00:00.000Z",
+    "end": "2027-06-22T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-06-22",
     "start": "2027-06-23T00:00:00.000Z",
     "end": "2027-06-23T02:00:00.000Z",
@@ -1929,6 +2358,17 @@
     "start": "2027-06-26T00:00:00.000Z",
     "end": "2027-06-26T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-06-28",
+    "start": "2027-06-29T00:00:00.000Z",
+    "end": "2027-06-29T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -1980,6 +2420,17 @@
     "source": "google"
   },
   {
+    "date": "2027-07-05",
+    "start": "2027-07-06T00:00:00.000Z",
+    "end": "2027-07-06T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-07-06",
     "start": "2027-07-07T00:00:00.000Z",
     "end": "2027-07-07T02:00:00.000Z",
@@ -2017,6 +2468,17 @@
     "start": "2027-07-10T00:00:00.000Z",
     "end": "2027-07-10T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-07-12",
+    "start": "2027-07-13T00:00:00.000Z",
+    "end": "2027-07-13T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -2068,6 +2530,17 @@
     "source": "google"
   },
   {
+    "date": "2027-07-19",
+    "start": "2027-07-20T00:00:00.000Z",
+    "end": "2027-07-20T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-07-20",
     "start": "2027-07-21T00:00:00.000Z",
     "end": "2027-07-21T02:00:00.000Z",
@@ -2105,6 +2578,17 @@
     "start": "2027-07-24T00:00:00.000Z",
     "end": "2027-07-24T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-07-26",
+    "start": "2027-07-27T00:00:00.000Z",
+    "end": "2027-07-27T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -2156,6 +2640,17 @@
     "source": "google"
   },
   {
+    "date": "2027-08-02",
+    "start": "2027-08-03T00:00:00.000Z",
+    "end": "2027-08-03T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-08-03",
     "start": "2027-08-04T00:00:00.000Z",
     "end": "2027-08-04T02:00:00.000Z",
@@ -2193,6 +2688,17 @@
     "start": "2027-08-07T00:00:00.000Z",
     "end": "2027-08-07T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-08-09",
+    "start": "2027-08-10T00:00:00.000Z",
+    "end": "2027-08-10T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -2244,6 +2750,17 @@
     "source": "google"
   },
   {
+    "date": "2027-08-16",
+    "start": "2027-08-17T00:00:00.000Z",
+    "end": "2027-08-17T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-08-17",
     "start": "2027-08-18T00:00:00.000Z",
     "end": "2027-08-18T02:00:00.000Z",
@@ -2281,6 +2798,17 @@
     "start": "2027-08-21T00:00:00.000Z",
     "end": "2027-08-21T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-08-23",
+    "start": "2027-08-24T00:00:00.000Z",
+    "end": "2027-08-24T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -2332,6 +2860,17 @@
     "source": "google"
   },
   {
+    "date": "2027-08-30",
+    "start": "2027-08-31T00:00:00.000Z",
+    "end": "2027-08-31T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-08-31",
     "start": "2027-09-01T00:00:00.000Z",
     "end": "2027-09-01T02:00:00.000Z",
@@ -2369,6 +2908,17 @@
     "start": "2027-09-04T00:00:00.000Z",
     "end": "2027-09-04T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-09-06",
+    "start": "2027-09-07T00:00:00.000Z",
+    "end": "2027-09-07T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -2420,6 +2970,17 @@
     "source": "google"
   },
   {
+    "date": "2027-09-13",
+    "start": "2027-09-14T00:00:00.000Z",
+    "end": "2027-09-14T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-09-14",
     "start": "2027-09-15T00:00:00.000Z",
     "end": "2027-09-15T02:00:00.000Z",
@@ -2457,6 +3018,17 @@
     "start": "2027-09-18T00:00:00.000Z",
     "end": "2027-09-18T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-09-20",
+    "start": "2027-09-21T00:00:00.000Z",
+    "end": "2027-09-21T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -2508,6 +3080,17 @@
     "source": "google"
   },
   {
+    "date": "2027-09-27",
+    "start": "2027-09-28T00:00:00.000Z",
+    "end": "2027-09-28T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-09-28",
     "start": "2027-09-29T00:00:00.000Z",
     "end": "2027-09-29T02:00:00.000Z",
@@ -2545,6 +3128,17 @@
     "start": "2027-10-02T00:00:00.000Z",
     "end": "2027-10-02T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-10-04",
+    "start": "2027-10-05T00:00:00.000Z",
+    "end": "2027-10-05T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -2596,6 +3190,17 @@
     "source": "google"
   },
   {
+    "date": "2027-10-11",
+    "start": "2027-10-12T00:00:00.000Z",
+    "end": "2027-10-12T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-10-12",
     "start": "2027-10-13T00:00:00.000Z",
     "end": "2027-10-13T02:00:00.000Z",
@@ -2633,6 +3238,17 @@
     "start": "2027-10-16T00:00:00.000Z",
     "end": "2027-10-16T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-10-18",
+    "start": "2027-10-19T00:00:00.000Z",
+    "end": "2027-10-19T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -2684,6 +3300,17 @@
     "source": "google"
   },
   {
+    "date": "2027-10-25",
+    "start": "2027-10-26T00:00:00.000Z",
+    "end": "2027-10-26T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-10-26",
     "start": "2027-10-27T00:00:00.000Z",
     "end": "2027-10-27T02:00:00.000Z",
@@ -2721,6 +3348,17 @@
     "start": "2027-10-30T00:00:00.000Z",
     "end": "2027-10-30T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-11-01",
+    "start": "2027-11-02T00:00:00.000Z",
+    "end": "2027-11-02T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -2772,6 +3410,17 @@
     "source": "google"
   },
   {
+    "date": "2027-11-08",
+    "start": "2027-11-09T00:00:00.000Z",
+    "end": "2027-11-09T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-11-09",
     "start": "2027-11-10T00:00:00.000Z",
     "end": "2027-11-10T02:00:00.000Z",
@@ -2809,6 +3458,17 @@
     "start": "2027-11-13T00:00:00.000Z",
     "end": "2027-11-13T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-11-15",
+    "start": "2027-11-16T00:00:00.000Z",
+    "end": "2027-11-16T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "4:00 PM ? 6:00 PM",
     "location": "",
@@ -2860,6 +3520,17 @@
     "source": "google"
   },
   {
+    "date": "2027-11-22",
+    "start": "2027-11-23T00:00:00.000Z",
+    "end": "2027-11-23T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-11-23",
     "start": "2027-11-24T00:00:00.000Z",
     "end": "2027-11-24T02:00:00.000Z",
@@ -2897,6 +3568,17 @@
     "start": "2027-11-27T00:00:00.000Z",
     "end": "2027-11-27T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-11-29",
+    "start": "2027-11-30T00:00:00.000Z",
+    "end": "2027-11-30T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "4:00 PM ? 6:00 PM",
     "location": "",
@@ -2948,6 +3630,17 @@
     "source": "google"
   },
   {
+    "date": "2027-12-06",
+    "start": "2027-12-07T00:00:00.000Z",
+    "end": "2027-12-07T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-12-07",
     "start": "2027-12-08T00:00:00.000Z",
     "end": "2027-12-08T02:00:00.000Z",
@@ -2985,6 +3678,17 @@
     "start": "2027-12-11T00:00:00.000Z",
     "end": "2027-12-11T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-12-13",
+    "start": "2027-12-14T00:00:00.000Z",
+    "end": "2027-12-14T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "4:00 PM ? 6:00 PM",
     "location": "",
@@ -3036,6 +3740,17 @@
     "source": "google"
   },
   {
+    "date": "2027-12-20",
+    "start": "2027-12-21T00:00:00.000Z",
+    "end": "2027-12-21T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2027-12-21",
     "start": "2027-12-22T00:00:00.000Z",
     "end": "2027-12-22T02:00:00.000Z",
@@ -3073,6 +3788,17 @@
     "start": "2027-12-25T00:00:00.000Z",
     "end": "2027-12-25T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2027-12-27",
+    "start": "2027-12-28T00:00:00.000Z",
+    "end": "2027-12-28T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "4:00 PM ? 6:00 PM",
     "location": "",
@@ -3124,6 +3850,17 @@
     "source": "google"
   },
   {
+    "date": "2028-01-03",
+    "start": "2028-01-04T00:00:00.000Z",
+    "end": "2028-01-04T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-01-04",
     "start": "2028-01-05T00:00:00.000Z",
     "end": "2028-01-05T02:00:00.000Z",
@@ -3161,6 +3898,17 @@
     "start": "2028-01-08T00:00:00.000Z",
     "end": "2028-01-08T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-01-10",
+    "start": "2028-01-11T00:00:00.000Z",
+    "end": "2028-01-11T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "4:00 PM ? 6:00 PM",
     "location": "",
@@ -3212,6 +3960,17 @@
     "source": "google"
   },
   {
+    "date": "2028-01-17",
+    "start": "2028-01-18T00:00:00.000Z",
+    "end": "2028-01-18T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-01-18",
     "start": "2028-01-19T00:00:00.000Z",
     "end": "2028-01-19T02:00:00.000Z",
@@ -3249,6 +4008,17 @@
     "start": "2028-01-22T00:00:00.000Z",
     "end": "2028-01-22T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-01-24",
+    "start": "2028-01-25T00:00:00.000Z",
+    "end": "2028-01-25T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "4:00 PM ? 6:00 PM",
     "location": "",
@@ -3300,6 +4070,17 @@
     "source": "google"
   },
   {
+    "date": "2028-01-31",
+    "start": "2028-02-01T00:00:00.000Z",
+    "end": "2028-02-01T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-02-01",
     "start": "2028-02-02T00:00:00.000Z",
     "end": "2028-02-02T02:00:00.000Z",
@@ -3337,6 +4118,17 @@
     "start": "2028-02-05T00:00:00.000Z",
     "end": "2028-02-05T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-02-07",
+    "start": "2028-02-08T00:00:00.000Z",
+    "end": "2028-02-08T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "4:00 PM ? 6:00 PM",
     "location": "",
@@ -3388,6 +4180,17 @@
     "source": "google"
   },
   {
+    "date": "2028-02-14",
+    "start": "2028-02-15T00:00:00.000Z",
+    "end": "2028-02-15T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-02-15",
     "start": "2028-02-16T00:00:00.000Z",
     "end": "2028-02-16T02:00:00.000Z",
@@ -3425,6 +4228,17 @@
     "start": "2028-02-19T00:00:00.000Z",
     "end": "2028-02-19T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-02-21",
+    "start": "2028-02-22T00:00:00.000Z",
+    "end": "2028-02-22T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "4:00 PM ? 6:00 PM",
     "location": "",
@@ -3476,6 +4290,17 @@
     "source": "google"
   },
   {
+    "date": "2028-02-28",
+    "start": "2028-02-29T00:00:00.000Z",
+    "end": "2028-02-29T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-02-29",
     "start": "2028-03-01T00:00:00.000Z",
     "end": "2028-03-01T02:00:00.000Z",
@@ -3513,6 +4338,17 @@
     "start": "2028-03-04T00:00:00.000Z",
     "end": "2028-03-04T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-03-06",
+    "start": "2028-03-07T00:00:00.000Z",
+    "end": "2028-03-07T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "4:00 PM ? 6:00 PM",
     "location": "",
@@ -3564,6 +4400,17 @@
     "source": "google"
   },
   {
+    "date": "2028-03-13",
+    "start": "2028-03-14T00:00:00.000Z",
+    "end": "2028-03-14T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-03-14",
     "start": "2028-03-15T00:00:00.000Z",
     "end": "2028-03-15T02:00:00.000Z",
@@ -3601,6 +4448,17 @@
     "start": "2028-03-18T00:00:00.000Z",
     "end": "2028-03-18T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-03-20",
+    "start": "2028-03-21T00:00:00.000Z",
+    "end": "2028-03-21T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -3652,6 +4510,17 @@
     "source": "google"
   },
   {
+    "date": "2028-03-27",
+    "start": "2028-03-28T00:00:00.000Z",
+    "end": "2028-03-28T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-03-28",
     "start": "2028-03-29T00:00:00.000Z",
     "end": "2028-03-29T02:00:00.000Z",
@@ -3689,6 +4558,17 @@
     "start": "2028-04-01T00:00:00.000Z",
     "end": "2028-04-01T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-04-03",
+    "start": "2028-04-04T00:00:00.000Z",
+    "end": "2028-04-04T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -3740,6 +4620,17 @@
     "source": "google"
   },
   {
+    "date": "2028-04-10",
+    "start": "2028-04-11T00:00:00.000Z",
+    "end": "2028-04-11T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-04-11",
     "start": "2028-04-12T00:00:00.000Z",
     "end": "2028-04-12T02:00:00.000Z",
@@ -3777,6 +4668,17 @@
     "start": "2028-04-15T00:00:00.000Z",
     "end": "2028-04-15T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-04-17",
+    "start": "2028-04-18T00:00:00.000Z",
+    "end": "2028-04-18T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -3828,6 +4730,17 @@
     "source": "google"
   },
   {
+    "date": "2028-04-24",
+    "start": "2028-04-25T00:00:00.000Z",
+    "end": "2028-04-25T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-04-25",
     "start": "2028-04-26T00:00:00.000Z",
     "end": "2028-04-26T02:00:00.000Z",
@@ -3865,6 +4778,17 @@
     "start": "2028-04-29T00:00:00.000Z",
     "end": "2028-04-29T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-05-01",
+    "start": "2028-05-02T00:00:00.000Z",
+    "end": "2028-05-02T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -3916,6 +4840,17 @@
     "source": "google"
   },
   {
+    "date": "2028-05-08",
+    "start": "2028-05-09T00:00:00.000Z",
+    "end": "2028-05-09T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-05-09",
     "start": "2028-05-10T00:00:00.000Z",
     "end": "2028-05-10T02:00:00.000Z",
@@ -3953,6 +4888,17 @@
     "start": "2028-05-13T00:00:00.000Z",
     "end": "2028-05-13T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-05-15",
+    "start": "2028-05-16T00:00:00.000Z",
+    "end": "2028-05-16T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -4004,6 +4950,17 @@
     "source": "google"
   },
   {
+    "date": "2028-05-22",
+    "start": "2028-05-23T00:00:00.000Z",
+    "end": "2028-05-23T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-05-23",
     "start": "2028-05-24T00:00:00.000Z",
     "end": "2028-05-24T02:00:00.000Z",
@@ -4041,6 +4998,17 @@
     "start": "2028-05-27T00:00:00.000Z",
     "end": "2028-05-27T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-05-29",
+    "start": "2028-05-30T00:00:00.000Z",
+    "end": "2028-05-30T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -4092,6 +5060,17 @@
     "source": "google"
   },
   {
+    "date": "2028-06-05",
+    "start": "2028-06-06T00:00:00.000Z",
+    "end": "2028-06-06T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-06-06",
     "start": "2028-06-07T00:00:00.000Z",
     "end": "2028-06-07T02:00:00.000Z",
@@ -4129,6 +5108,17 @@
     "start": "2028-06-10T00:00:00.000Z",
     "end": "2028-06-10T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-06-12",
+    "start": "2028-06-13T00:00:00.000Z",
+    "end": "2028-06-13T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -4180,6 +5170,17 @@
     "source": "google"
   },
   {
+    "date": "2028-06-19",
+    "start": "2028-06-20T00:00:00.000Z",
+    "end": "2028-06-20T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-06-20",
     "start": "2028-06-21T00:00:00.000Z",
     "end": "2028-06-21T02:00:00.000Z",
@@ -4217,6 +5218,17 @@
     "start": "2028-06-24T00:00:00.000Z",
     "end": "2028-06-24T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-06-26",
+    "start": "2028-06-27T00:00:00.000Z",
+    "end": "2028-06-27T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -4268,6 +5280,17 @@
     "source": "google"
   },
   {
+    "date": "2028-07-03",
+    "start": "2028-07-04T00:00:00.000Z",
+    "end": "2028-07-04T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-07-04",
     "start": "2028-07-05T00:00:00.000Z",
     "end": "2028-07-05T02:00:00.000Z",
@@ -4305,6 +5328,17 @@
     "start": "2028-07-08T00:00:00.000Z",
     "end": "2028-07-08T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-07-10",
+    "start": "2028-07-11T00:00:00.000Z",
+    "end": "2028-07-11T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -4356,6 +5390,17 @@
     "source": "google"
   },
   {
+    "date": "2028-07-17",
+    "start": "2028-07-18T00:00:00.000Z",
+    "end": "2028-07-18T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-07-18",
     "start": "2028-07-19T00:00:00.000Z",
     "end": "2028-07-19T02:00:00.000Z",
@@ -4393,6 +5438,17 @@
     "start": "2028-07-22T00:00:00.000Z",
     "end": "2028-07-22T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-07-24",
+    "start": "2028-07-25T00:00:00.000Z",
+    "end": "2028-07-25T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -4444,6 +5500,17 @@
     "source": "google"
   },
   {
+    "date": "2028-07-31",
+    "start": "2028-08-01T00:00:00.000Z",
+    "end": "2028-08-01T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-08-01",
     "start": "2028-08-02T00:00:00.000Z",
     "end": "2028-08-02T02:00:00.000Z",
@@ -4481,6 +5548,17 @@
     "start": "2028-08-05T00:00:00.000Z",
     "end": "2028-08-05T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-08-07",
+    "start": "2028-08-08T00:00:00.000Z",
+    "end": "2028-08-08T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -4532,6 +5610,17 @@
     "source": "google"
   },
   {
+    "date": "2028-08-14",
+    "start": "2028-08-15T00:00:00.000Z",
+    "end": "2028-08-15T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-08-15",
     "start": "2028-08-16T00:00:00.000Z",
     "end": "2028-08-16T02:00:00.000Z",
@@ -4569,6 +5658,17 @@
     "start": "2028-08-19T00:00:00.000Z",
     "end": "2028-08-19T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-08-21",
+    "start": "2028-08-22T00:00:00.000Z",
+    "end": "2028-08-22T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -4620,6 +5720,17 @@
     "source": "google"
   },
   {
+    "date": "2028-08-28",
+    "start": "2028-08-29T00:00:00.000Z",
+    "end": "2028-08-29T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-08-29",
     "start": "2028-08-30T00:00:00.000Z",
     "end": "2028-08-30T02:00:00.000Z",
@@ -4657,6 +5768,17 @@
     "start": "2028-09-02T00:00:00.000Z",
     "end": "2028-09-02T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-09-04",
+    "start": "2028-09-05T00:00:00.000Z",
+    "end": "2028-09-05T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -4708,6 +5830,17 @@
     "source": "google"
   },
   {
+    "date": "2028-09-11",
+    "start": "2028-09-12T00:00:00.000Z",
+    "end": "2028-09-12T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-09-12",
     "start": "2028-09-13T00:00:00.000Z",
     "end": "2028-09-13T02:00:00.000Z",
@@ -4745,6 +5878,17 @@
     "start": "2028-09-16T00:00:00.000Z",
     "end": "2028-09-16T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-09-18",
+    "start": "2028-09-19T00:00:00.000Z",
+    "end": "2028-09-19T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -4796,6 +5940,17 @@
     "source": "google"
   },
   {
+    "date": "2028-09-25",
+    "start": "2028-09-26T00:00:00.000Z",
+    "end": "2028-09-26T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-09-26",
     "start": "2028-09-27T00:00:00.000Z",
     "end": "2028-09-27T02:00:00.000Z",
@@ -4833,6 +5988,17 @@
     "start": "2028-09-30T00:00:00.000Z",
     "end": "2028-09-30T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-10-02",
+    "start": "2028-10-03T00:00:00.000Z",
+    "end": "2028-10-03T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -4884,6 +6050,17 @@
     "source": "google"
   },
   {
+    "date": "2028-10-09",
+    "start": "2028-10-10T00:00:00.000Z",
+    "end": "2028-10-10T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-10-10",
     "start": "2028-10-11T00:00:00.000Z",
     "end": "2028-10-11T02:00:00.000Z",
@@ -4921,6 +6098,17 @@
     "start": "2028-10-14T00:00:00.000Z",
     "end": "2028-10-14T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-10-16",
+    "start": "2028-10-17T00:00:00.000Z",
+    "end": "2028-10-17T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -4972,6 +6160,17 @@
     "source": "google"
   },
   {
+    "date": "2028-10-23",
+    "start": "2028-10-24T00:00:00.000Z",
+    "end": "2028-10-24T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-10-24",
     "start": "2028-10-25T00:00:00.000Z",
     "end": "2028-10-25T02:00:00.000Z",
@@ -5009,6 +6208,17 @@
     "start": "2028-10-28T00:00:00.000Z",
     "end": "2028-10-28T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "5:00 PM ? 7:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-10-30",
+    "start": "2028-10-31T00:00:00.000Z",
+    "end": "2028-10-31T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "5:00 PM ? 7:00 PM",
     "location": "",
@@ -5060,6 +6270,17 @@
     "source": "google"
   },
   {
+    "date": "2028-11-06",
+    "start": "2028-11-07T00:00:00.000Z",
+    "end": "2028-11-07T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-11-07",
     "start": "2028-11-08T00:00:00.000Z",
     "end": "2028-11-08T02:00:00.000Z",
@@ -5097,6 +6318,17 @@
     "start": "2028-11-11T00:00:00.000Z",
     "end": "2028-11-11T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-11-13",
+    "start": "2028-11-14T00:00:00.000Z",
+    "end": "2028-11-14T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "4:00 PM ? 6:00 PM",
     "location": "",
@@ -5148,6 +6380,17 @@
     "source": "google"
   },
   {
+    "date": "2028-11-20",
+    "start": "2028-11-21T00:00:00.000Z",
+    "end": "2028-11-21T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-11-21",
     "start": "2028-11-22T00:00:00.000Z",
     "end": "2028-11-22T02:00:00.000Z",
@@ -5185,6 +6428,17 @@
     "start": "2028-11-25T00:00:00.000Z",
     "end": "2028-11-25T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-11-27",
+    "start": "2028-11-28T00:00:00.000Z",
+    "end": "2028-11-28T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "4:00 PM ? 6:00 PM",
     "location": "",
@@ -5236,6 +6490,17 @@
     "source": "google"
   },
   {
+    "date": "2028-12-04",
+    "start": "2028-12-05T00:00:00.000Z",
+    "end": "2028-12-05T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-12-05",
     "start": "2028-12-06T00:00:00.000Z",
     "end": "2028-12-06T02:00:00.000Z",
@@ -5273,6 +6538,17 @@
     "start": "2028-12-09T00:00:00.000Z",
     "end": "2028-12-09T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-12-11",
+    "start": "2028-12-12T00:00:00.000Z",
+    "end": "2028-12-12T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "4:00 PM ? 6:00 PM",
     "location": "",
@@ -5324,6 +6600,17 @@
     "source": "google"
   },
   {
+    "date": "2028-12-18",
+    "start": "2028-12-19T00:00:00.000Z",
+    "end": "2028-12-19T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
     "date": "2028-12-19",
     "start": "2028-12-20T00:00:00.000Z",
     "end": "2028-12-20T02:00:00.000Z",
@@ -5361,6 +6648,17 @@
     "start": "2028-12-23T00:00:00.000Z",
     "end": "2028-12-23T02:00:00.000Z",
     "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
+    "type": "practice",
+    "detail": "4:00 PM ? 6:00 PM",
+    "location": "",
+    "allDay": false,
+    "source": "google"
+  },
+  {
+    "date": "2028-12-25",
+    "start": "2028-12-26T00:00:00.000Z",
+    "end": "2028-12-26T02:00:00.000Z",
+    "title": "PRACTICE: Cb, Cg, Sr, Nat",
     "type": "practice",
     "detail": "4:00 PM ? 6:00 PM",
     "location": "",
