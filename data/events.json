@@ -12,11 +12,11 @@
   },
   {
     "date": "2026-09-15",
-    "start": "2026-09-15T14:45:00.000Z",
-    "end": "2026-09-15T15:45:00.000Z",
+    "start": "2026-09-15T21:45:00.000Z",
+    "end": "2026-09-15T22:45:00.000Z",
     "title": "test 2",
     "type": "important",
-    "detail": "7:45 AM ? 8:45 AM",
+    "detail": "2:45 PM ? 3:45 PM",
     "location": "",
     "allDay": false,
     "source": "google"
