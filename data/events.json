@@ -1,134 +1,83 @@
 [
   {
-    "date": "2026-09-14",
-    "start": "2026-09-14T17:00:00.000Z",
-    "end": "2026-09-14T19:00:00.000Z",
-    "title": "Cb, Jr, Cg, Sr, Nat",
-    "type": "practice",
-    "detail": "10:00 AM ? 12:00 PM",
-    "location": "",
-    "allDay": false,
-    "source": "google"
-  },
-  {
-    "date": "2026-10-09",
-    "start": "2026-10-10T00:00:00.000Z",
-    "end": "2026-10-11T00:00:00.000Z",
+    "date": "2026-10-10",
+    "start": "2026-10-10T07:00:00.000Z",
     "title": "Nationals Swim practice Canceled (WSU Meet)",
     "type": "important",
     "detail": "All day",
     "location": "",
-    "allDay": true,
-    "source": "google"
+    "allDay": true
   },
   {
     "date": "2026-10-16",
     "start": "2026-10-16T07:00:00.000Z",
-    "end": "2026-10-18T07:00:00.000Z",
     "title": "COUG Fall Fury",
     "type": "meet",
-    "detail": "12:00 AM ? 12:00 AM",
+    "detail": "12:00 AM – 12:00 AM",
     "location": "",
-    "allDay": false,
-    "source": "gomotion"
-  },
-  {
-    "date": "2026-10-17",
-    "start": "2026-10-16T07:00:00.000Z",
-    "end": "2026-10-18T07:00:00.000Z",
-    "title": "COUG Fall Fury",
-    "type": "meet",
-    "detail": "12:00 AM ? 12:00 AM",
-    "location": "",
-    "allDay": false,
-    "source": "gomotion"
-  },
-  {
-    "date": "2026-10-18",
-    "start": "2026-10-16T07:00:00.000Z",
-    "end": "2026-10-18T07:00:00.000Z",
-    "title": "COUG Fall Fury",
-    "type": "meet",
-    "detail": "12:00 AM ? 12:00 AM",
-    "location": "",
-    "allDay": false,
-    "source": "gomotion"
+    "allDay": false
   },
   {
     "date": "2026-10-25",
     "start": "2026-10-25T07:00:00.000Z",
-    "end": "2026-10-25T07:00:00.000Z",
     "title": "VAN Trick-or-Treat",
     "type": "meet",
-    "detail": "12:00 AM ? 12:00 AM",
+    "detail": "12:00 AM – 12:00 AM",
     "location": "",
-    "allDay": false,
-    "source": "gomotion"
+    "allDay": false
   },
   {
-    "date": "2026-11-05",
-    "start": "2026-11-06T00:00:00.000Z",
-    "end": "2026-11-07T00:00:00.000Z",
+    "date": "2026-11-06",
+    "start": "2026-11-06T08:00:00.000Z",
     "title": "Afternoon practices cancelled (WSU Meet)",
     "type": "important",
     "detail": "All day",
     "location": "",
-    "allDay": true,
-    "source": "google"
-  },
-  {
-    "date": "2026-11-25",
-    "start": "2026-11-26T00:00:00.000Z",
-    "end": "2026-11-27T00:00:00.000Z",
-    "title": "All practices cancelled",
-    "type": "important",
-    "detail": "All day",
-    "location": "",
-    "allDay": true,
-    "source": "google"
+    "allDay": true
   },
   {
     "date": "2026-11-26",
-    "start": "2026-11-27T00:00:00.000Z",
-    "end": "2026-11-28T00:00:00.000Z",
+    "start": "2026-11-26T08:00:00.000Z",
     "title": "All practices cancelled",
     "type": "important",
     "detail": "All day",
     "location": "",
-    "allDay": true,
-    "source": "google"
+    "allDay": true
   },
   {
-    "date": "2026-12-23",
-    "start": "2026-12-24T00:00:00.000Z",
-    "end": "2026-12-25T00:00:00.000Z",
+    "date": "2026-11-27",
+    "start": "2026-11-27T08:00:00.000Z",
     "title": "All practices cancelled",
     "type": "important",
     "detail": "All day",
     "location": "",
-    "allDay": true,
-    "source": "google"
+    "allDay": true
   },
   {
     "date": "2026-12-24",
-    "start": "2026-12-25T00:00:00.000Z",
-    "end": "2026-12-26T00:00:00.000Z",
+    "start": "2026-12-24T08:00:00.000Z",
     "title": "All practices cancelled",
     "type": "important",
     "detail": "All day",
     "location": "",
-    "allDay": true,
-    "source": "google"
+    "allDay": true
   },
   {
     "date": "2026-12-25",
-    "start": "2026-12-26T00:00:00.000Z",
-    "end": "2026-12-27T00:00:00.000Z",
+    "start": "2026-12-25T08:00:00.000Z",
     "title": "All practices cancelled",
     "type": "important",
     "detail": "All day",
     "location": "",
-    "allDay": true,
-    "source": "google"
+    "allDay": true
+  },
+  {
+    "date": "2026-12-26",
+    "start": "2026-12-26T08:00:00.000Z",
+    "title": "All practices cancelled",
+    "type": "important",
+    "detail": "All day",
+    "location": "",
+    "allDay": true
   }
 ]
