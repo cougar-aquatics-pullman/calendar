@@ -45,11 +45,16 @@ h1{font-family:Georgia,"Times New Roman",serif;font-size:50px;font-weight:400;le
 .filters button.active{color:var(--ink);border-bottom-color:var(--red);font-weight:700}
 .group-key{
   display:flex;align-items:center;flex-wrap:wrap;gap:6px 18px;
-  padding:8px 0 15px;color:#6f7174;font-size:10px
+  margin:2px 0 14px;padding:9px 11px;
+  border-top:1px solid #d7d7d4;border-bottom:1px solid #d7d7d4;
+  background:#f6f6f4;color:#666;font-size:10px
 }
-.group-key strong{color:#444;text-transform:uppercase;letter-spacing:.1em;font-size:9px}
+.group-key-title{
+  color:var(--red)!important;font-size:9px!important;letter-spacing:.14em;
+  font-weight:800!important;margin-right:3px
+}
 .group-key span{white-space:nowrap}
-.group-key b{color:var(--ink);font-weight:800;margin-right:3px}
+.group-key b{color:var(--ink);font-weight:800;margin-right:2px}
 .calendar-layout{
   display:grid;grid-template-columns:minmax(0,1fr) 285px;
   border-top:1px solid var(--ink);border-bottom:1px solid var(--ink)
@@ -74,8 +79,8 @@ h1{font-family:Georgia,"Times New Roman",serif;font-size:50px;font-weight:400;le
   font-size:9px;line-height:1.25;border-radius:0;overflow-wrap:anywhere
 }
 .ev-time{
-  display:block;color:#161719;font-size:10px;line-height:1.15;font-weight:800;
-  margin-bottom:2px;white-space:nowrap
+  display:block;color:#111;font-size:10.5px;line-height:1.15;font-weight:800;
+  margin-bottom:3px;white-space:nowrap;letter-spacing:-.01em
 }
 .ev-title{display:block;font-weight:600;color:#35373a}
 .ev.meet{border-left-color:var(--meet)}
