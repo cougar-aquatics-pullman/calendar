@@ -1,0 +1,29 @@
+[
+  {
+    "date": "2026-10-10",
+    "start": "2026-10-10T07:00:00.000Z",
+    "title": "Nationals Swim practice Canceled (WSU Meet)",
+    "type": "important",
+    "detail": "All day",
+    "location": "",
+    "allDay": true
+  },
+  {
+    "date": "2026-10-16",
+    "start": "2026-10-16T07:00:00.000Z",
+    "title": "COUG Fall Fury",
+    "type": "meet",
+    "detail": "12:00 AM – 12:00 AM",
+    "location": "",
+    "allDay": false
+  },
+  {
+    "date": "2026-10-25",
+    "start": "2026-10-25T07:00:00.000Z",
+    "title": "VAN Trick-or-Treat",
+    "type": "meet",
+    "detail": "12:00 AM – 12:00 AM",
+    "location": "",
+    "allDay": false
+  }
+]

@@ -1,0 +1,8 @@
+#!/bin/bash
+set -e
+cd "$(dirname "$0")"
+mkdir -p data
+echo "Reading Apple Calendar..."
+osascript -l JavaScript export-calendar.js > data/events.json
+python3 -c 'import json; d=json.load(open("data/events.json")); print("Done —",len(d),"events exported.")'
+echo "Refresh http://localhost:8000"

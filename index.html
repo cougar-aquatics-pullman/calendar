@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cougar Aquatics — Club Calendar</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="masthead">
+  <div class="mast-inner">
+    <img src="cougar-aquatics-logo.png" alt="Cougar Aquatics" class="logo">
+    <div class="mast-label">CLUB CALENDAR</div>
+  </div>
+</header>
+
+<main>
+  <section class="title-row">
+    <div>
+      <p class="kicker">COUGAR AQUATICS</p>
+      <h1>Club Calendar</h1>
+          </div>
+    <div class="season-note">2026–27 SEASON</div>
+  </section>
+
+  <div class="rule"></div>
+
+  <section class="controls">
+    <div class="month-nav">
+      <button id="prev" aria-label="Previous month">←</button>
+      <h2 id="month"></h2>
+      <button id="next" aria-label="Next month">→</button>
+    </div>
+    <div class="filters">
+      <button data-f="all" class="active">All</button>
+      <button data-f="meet">Meets</button>
+      <button data-f="practice">Practices</button>
+      <button data-f="club">Club Events</button>
+      <button data-f="important">Important Days</button>
+    </div>
+  </section>
+
+  <section class="calendar-layout">
+    <div class="calendar-area">
+      <div class="week">
+        <b>Sun</b><b>Mon</b><b>Tue</b><b>Wed</b><b>Thu</b><b>Fri</b><b>Sat</b>
+      </div>
+      <div id="grid" class="grid"></div>
+    </div>
+
+    <aside>
+      <div class="aside-head">
+        <p class="kicker">KEEP AN EYE ON</p>
+        <h2>Important Dates</h2>
+      </div>
+      <div id="important"></div>
+    </aside>
+  </section>
+
+  <section class="key">
+    <span><i class="meet"></i> Meets</span>
+    <span><i class="practice"></i> Practices</span>
+    <span><i class="club"></i> Club Events</span>
+    <span><i class="important"></i> Important Days</span>
+  </section>
+</main>
+
+<footer>
+  <span>COUGAR AQUATICS</span>
+  <span>SWIM · COMMUNITY · EXCELLENCE</span>
+</footer>
+
+<script src="calendar.js"></script>
+</body>
+</html>
