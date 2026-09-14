@@ -52,5 +52,14 @@
     "detail": "All day",
     "location": "",
     "allDay": true
+  },
+  {
+    "date": "2026-12-24",
+    "start": "2026-12-24T08:00:00.000Z",
+    "title": "All practices cancelled",
+    "type": "important",
+    "detail": "All day",
+    "location": "",
+    "allDay": true
   }
 ]
