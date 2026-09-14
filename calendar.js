@@ -125,6 +125,8 @@ function renderDesktop(){
       const t=compactEventTime(e);
       const title=displayTitle(e);
 
+      if(e.color) x.style.borderLeftColor=e.color;
+
       x.innerHTML=
         (t?`<span class="ev-time">${escapeHtml(t)}</span>`:"")+
         `<span class="ev-title">${escapeHtml(title)}</span>`;
@@ -213,6 +215,11 @@ function renderAgenda(){
           `<div class="agenda-title">${escapeHtml(displayTitle(e))}</div>`+
           (e.location?`<div class="agenda-location">${escapeHtml(e.location)}</div>`:"")+
         `</div>`;
+
+      if(e.color){
+        const copy=row.querySelector(".agenda-copy");
+        if(copy) copy.style.borderLeftColor=e.color;
+      }
 
       day.appendChild(row);
     });
