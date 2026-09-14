@@ -1,5 +1,14 @@
 [
   {
+    "date": "2026-09-16",
+    "start": "2026-09-16T07:00:00.000Z",
+    "title": "test",
+    "type": "important",
+    "detail": "All day",
+    "location": "",
+    "allDay": true
+  },
+  {
     "date": "2026-10-10",
     "start": "2026-10-10T07:00:00.000Z",
     "title": "Nationals Swim practice Canceled (WSU Meet)",
