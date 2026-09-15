@@ -180,6 +180,18 @@
     "source": "google"
   },
   {
+    "date": "2026-10-05",
+    "start": "2026-10-06T06:59:00.000Z",
+    "end": "2026-10-06T06:59:00.000Z",
+    "title": "Entries Due - COUG Fall Fury",
+    "type": "important",
+    "detail": "11:59 PM ? 11:59 PM",
+    "location": "",
+    "allDay": false,
+    "color": "#F83A22",
+    "source": "google"
+  },
+  {
     "date": "2026-10-06",
     "start": "2026-10-07T00:00:00.000Z",
     "end": "2026-10-07T02:00:00.000Z",
