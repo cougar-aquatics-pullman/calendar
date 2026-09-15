@@ -169,3 +169,63 @@ footer{
   footer{margin:0 17px 25px;padding:14px 0;display:block}
   footer span{display:block;margin-bottom:5px}
 }
+
+/* Draft 8 — category filters double as the color legend */
+.category-filters{
+  display:flex;
+  align-items:flex-end;
+  justify-content:flex-end;
+  gap:22px;
+}
+.category-filter{
+  min-width:auto!important;
+  padding:4px 2px 7px!important;
+  border:0!important;
+  border-bottom:1px solid transparent!important;
+  background:transparent!important;
+  color:#6c6e71!important;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:6px;
+  cursor:pointer;
+  font-size:11px!important;
+}
+.category-filter .filter-mark{
+  display:block;
+  width:28px;
+  height:3px;
+  background:#999;
+  border-radius:1px;
+  transition:width .15s ease, opacity .15s ease;
+}
+.category-filter .all-mark{
+  background:var(--ink);
+}
+.category-filter.active{
+  color:var(--ink)!important;
+  font-weight:700!important;
+  border-bottom-color:transparent!important;
+}
+.category-filter.active .filter-mark{
+  width:34px;
+}
+.category-filter:not(.active){
+  opacity:.72;
+}
+.category-filter:hover{
+  opacity:1;
+}
+@media(max-width:800px){
+  .category-filters{
+    width:100%;
+    justify-content:flex-start;
+    gap:18px;
+    overflow-x:auto;
+    padding-bottom:3px;
+  }
+  .category-filter{
+    flex:0 0 auto;
+    min-height:44px;
+  }
+}

@@ -10,6 +10,7 @@ async function load(){
   const response=await fetch("data/events.json?t="+Date.now());
   events=await response.json();
   events.sort((a,b)=>(a.date||"").localeCompare(b.date||"") || (a.start||"").localeCompare(b.start||""));
+  updateFilterColors();
   render();
 }
 
@@ -101,6 +102,22 @@ function deadlineParts(title){
   if(m) return {subject:m[1].trim(), action:"Entries due"};
 
   return null;
+}
+
+function updateFilterColors(){
+  const fallback={
+    meet:"#9f1723",
+    practice:"#6f7880",
+    club:"#536f7d",
+    important:"#b3822c"
+  };
+
+  document.querySelectorAll(".category-filter[data-category]").forEach(button=>{
+    const type=button.dataset.category;
+    const event=events.find(e=>e.type===type && e.color);
+    const mark=button.querySelector(".filter-mark");
+    if(mark) mark.style.backgroundColor=event?.color || fallback[type];
+  });
 }
 
 function filtered(){

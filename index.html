@@ -33,12 +33,27 @@
       <button id="next" aria-label="Next month">→</button>
     </div>
 
-    <div class="filters" aria-label="Calendar filters">
-      <button data-f="all" class="active">All</button>
-      <button data-f="meet">Meets</button>
-      <button data-f="practice">Practices</button>
-      <button data-f="club">Club Events</button>
-      <button data-f="important">Important Days</button>
+    <div class="filters category-filters" aria-label="Calendar filters">
+      <button data-f="all" class="active category-filter all-filter">
+        <span class="filter-mark all-mark"></span>
+        <span>All</span>
+      </button>
+      <button data-f="meet" class="category-filter" data-category="meet">
+        <span class="filter-mark"></span>
+        <span>Meets</span>
+      </button>
+      <button data-f="practice" class="category-filter" data-category="practice">
+        <span class="filter-mark"></span>
+        <span>Practices</span>
+      </button>
+      <button data-f="club" class="category-filter" data-category="club">
+        <span class="filter-mark"></span>
+        <span>Club Events</span>
+      </button>
+      <button data-f="important" class="category-filter" data-category="important">
+        <span class="filter-mark"></span>
+        <span>Important Days</span>
+      </button>
     </div>
   </section>
 
@@ -68,13 +83,6 @@
         <div id="important"></div>
       </aside>
     </div>
-
-    <section class="key">
-      <span><i class="meet"></i> Meets</span>
-      <span><i class="practice"></i> Practices</span>
-      <span><i class="club"></i> Club Events</span>
-      <span><i class="important"></i> Important Days</span>
-    </section>
   </section>
 
   <section class="mobile-calendar">
@@ -94,6 +102,7 @@
 
 <footer>
   <span>COUGAR AQUATICS</span>
+  <span>SWIM · COMMUNITY · EXCELLENCE</span>
 </footer>
 
 <script src="calendar.js"></script>
