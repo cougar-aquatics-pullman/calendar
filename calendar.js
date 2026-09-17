@@ -284,8 +284,8 @@ function renderAgenda(){
 }
 
 function parseDate(s){
-  const [y,m,d]=s.split("-").map(Number);
-  return new Date(y,m-1,d,12,0,0);
+  const [y,m,d] = s.split("-").map(Number);
+  return new Date(y, m - 1, d, 12, 0, 0);
 }
 
 function localDateString(d){
