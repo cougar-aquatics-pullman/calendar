@@ -56,8 +56,10 @@ h1{font-family:Georgia,"Times New Roman",serif;font-size:50px;font-weight:400;le
 .group-key span{white-space:nowrap}
 .group-key b{color:var(--ink);font-weight:800;margin-right:2px}
 .calendar-layout{
-  display:grid;grid-template-columns:minmax(0,1fr) 285px;
-  border-top:1px solid var(--ink);border-bottom:1px solid var(--ink)
+  display:grid;
+  grid-template-columns:205px minmax(0,1fr) 245px;
+  border-top:1px solid var(--ink);
+  border-bottom:1px solid var(--ink);
 }
 .calendar-area{min-width:0}
 .week,.grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr))}
