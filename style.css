@@ -229,3 +229,13 @@ footer{
     min-height:44px;
   }
 }
+
+.meets-sidebar{margin-top:30px}
+.meets-head{margin-bottom:0}
+.meet-summary{display:grid;grid-template-columns:58px 1fr;gap:12px;padding:14px 0;border-bottom:1px solid #d9d9d6}
+.meet-summary-date em{display:block;color:var(--red);font-style:normal;font-size:9px;letter-spacing:.11em;font-weight:800}
+.meet-summary-date strong{display:block;font-family:Georgia,"Times New Roman",serif;font-size:22px;font-weight:400;white-space:nowrap}
+.meet-summary-copy b{display:block;font-family:Georgia,"Times New Roman",serif;font-size:14px;line-height:1.25;font-weight:600}
+.meet-summary-copy p{margin:5px 0 0;color:var(--muted);font-size:10px;line-height:1.35}
+.mobile-meets{padding:25px 17px 7px;border-bottom:1px solid var(--ink);background:#fff}
+.mobile-meets h2{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:25px;margin:0 0 8px}

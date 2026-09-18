@@ -128,6 +128,8 @@ function render(){
   renderDesktop();
   renderImportant("#important");
   renderImportant("#mobile-important-list");
+  renderMeets("#meets-list");
+  renderMeets("#mobile-meets-list");
   renderAgenda();
 }
 
@@ -226,6 +228,38 @@ function renderImportant(selector){
   });
 }
 
+function nextDateString(ymd){
+  const d=parseDate(ymd); d.setDate(d.getDate()+1); return localDateString(d);
+}
+function groupedUpcomingMeets(){
+  const today=localDateString(new Date());
+  const source=events.filter(e=>e.type==="meet"&&e.date>=today)
+    .slice().sort((a,b)=>a.date.localeCompare(b.date)||(a.title||"").localeCompare(b.title||""));
+  const groups=[];
+  source.forEach(e=>{
+    const g=groups[groups.length-1];
+    if(g&&g.title===e.title&&nextDateString(g.endDate)===e.date){g.endDate=e.date;return;}
+    groups.push({title:e.title,startDate:e.date,endDate:e.date,location:e.location||""});
+  });
+  return groups.slice(0,6);
+}
+function renderMeets(selector){
+  const box=document.querySelector(selector); if(!box)return;
+  const list=groupedUpcomingMeets(); box.innerHTML="";
+  if(!list.length){box.innerHTML='<p class="agenda-empty">No upcoming meets.</p>';return;}
+  list.forEach(g=>{
+    const a=parseDate(g.startDate), b=parseDate(g.endDate);
+    const mon=names[a.getMonth()].slice(0,3).toUpperCase();
+    let day=String(a.getDate());
+    if(g.startDate!==g.endDate) day+=`–${b.getDate()}`;
+    const x=document.createElement("div"); x.className="meet-summary";
+    x.innerHTML=`<div class="meet-summary-date"><em>${mon}</em><strong>${day}</strong></div>`+
+      `<div class="meet-summary-copy"><b>${escapeHtml(g.title)}</b>`+
+      (g.location?`<p>${escapeHtml(g.location)}</p>`:"")+`</div>`;
+    box.appendChild(x);
+  });
+}
+
 function renderAgenda(){
   let y=cur.getUTCFullYear(),m=cur.getUTCMonth();
   const list=filtered().filter(e=>{
@@ -284,8 +318,8 @@ function renderAgenda(){
 }
 
 function parseDate(s){
-  const [y,m,d] = s.split("-").map(Number);
-  return new Date(y, m - 1, d, 12, 0, 0);
+  const [y,m,d]=s.split("-").map(Number);
+  return new Date(y,m-1,d,12,0,0);
 }
 
 function localDateString(d){
