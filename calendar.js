@@ -228,35 +228,103 @@ function renderImportant(selector){
   });
 }
 
-function nextDateString(ymd){
-  const d=parseDate(ymd); d.setDate(d.getDate()+1); return localDateString(d);
+function ymdToDayNumber(ymd){
+  const [y,m,d]=ymd.split("-").map(Number);
+  return Math.floor(Date.UTC(y,m-1,d)/86400000);
 }
+
+function dayNumberToYMD(n){
+  const d=new Date(n*86400000);
+  return `${d.getUTCFullYear()}-${String(d.getUTCMonth()+1).padStart(2,"0")}-${String(d.getUTCDate()).padStart(2,"0")}`;
+}
+
+function nextDateString(ymd){
+  return dayNumberToYMD(ymdToDayNumber(ymd)+1);
+}
+
 function groupedUpcomingMeets(){
   const today=localDateString(new Date());
-  const source=events.filter(e=>e.type==="meet"&&e.date>=today)
-    .slice().sort((a,b)=>a.date.localeCompare(b.date)||(a.title||"").localeCompare(b.title||""));
+
+  const source=events
+    .filter(e=>e.type==="meet" && e.date>=today)
+    .slice()
+    .sort((a,b)=>{
+      const byDate=a.date.localeCompare(b.date);
+      if(byDate!==0) return byDate;
+      return (a.title||"").localeCompare(b.title||"");
+    });
+
   const groups=[];
+
   source.forEach(e=>{
-    const g=groups[groups.length-1];
-    if(g&&g.title===e.title&&nextDateString(g.endDate)===e.date){g.endDate=e.date;return;}
-    groups.push({title:e.title,startDate:e.date,endDate:e.date,location:e.location||""});
+    const last=groups[groups.length-1];
+
+    if(
+      last &&
+      last.title===e.title &&
+      nextDateString(last.endDate)===e.date
+    ){
+      last.endDate=e.date;
+      return;
+    }
+
+    groups.push({
+      title:e.title||"Meet",
+      startDate:e.date,
+      endDate:e.date,
+      location:e.location||""
+    });
   });
+
   return groups.slice(0,6);
 }
+
+function meetLabelParts(group){
+  const [sy,sm,sd]=group.startDate.split("-").map(Number);
+  const [ey,em,ed]=group.endDate.split("-").map(Number);
+
+  const startMonth=names[sm-1].slice(0,3).toUpperCase();
+  const endMonth=names[em-1].slice(0,3).toUpperCase();
+
+  if(group.startDate===group.endDate){
+    return {month:startMonth,day:String(sd)};
+  }
+
+  if(sy===ey && sm===em){
+    return {month:startMonth,day:`${sd}–${ed}`};
+  }
+
+  return {month:`${startMonth}–${endMonth}`,day:`${sd}–${ed}`};
+}
+
 function renderMeets(selector){
-  const box=document.querySelector(selector); if(!box)return;
-  const list=groupedUpcomingMeets(); box.innerHTML="";
-  if(!list.length){box.innerHTML='<p class="agenda-empty">No upcoming meets.</p>';return;}
-  list.forEach(g=>{
-    const a=parseDate(g.startDate), b=parseDate(g.endDate);
-    const mon=names[a.getMonth()].slice(0,3).toUpperCase();
-    let day=String(a.getDate());
-    if(g.startDate!==g.endDate) day+=`–${b.getDate()}`;
-    const x=document.createElement("div"); x.className="meet-summary";
-    x.innerHTML=`<div class="meet-summary-date"><em>${mon}</em><strong>${day}</strong></div>`+
-      `<div class="meet-summary-copy"><b>${escapeHtml(g.title)}</b>`+
-      (g.location?`<p>${escapeHtml(g.location)}</p>`:"")+`</div>`;
-    box.appendChild(x);
+  const box=document.querySelector(selector);
+  if(!box) return;
+
+  const list=groupedUpcomingMeets();
+  box.innerHTML="";
+
+  if(!list.length){
+    box.innerHTML='<p class="agenda-empty">No upcoming meets.</p>';
+    return;
+  }
+
+  list.forEach(group=>{
+    const label=meetLabelParts(group);
+    const row=document.createElement("div");
+    row.className="meet-summary";
+
+    row.innerHTML=
+      `<div class="meet-summary-date">`+
+        `<em>${escapeHtml(label.month)}</em>`+
+        `<strong>${escapeHtml(label.day)}</strong>`+
+      `</div>`+
+      `<div class="meet-summary-copy">`+
+        `<b>${escapeHtml(group.title)}</b>`+
+        (group.location?`<p>${escapeHtml(group.location)}</p>`:"")+
+      `</div>`;
+
+    box.appendChild(row);
   });
 }
 

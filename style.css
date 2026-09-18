@@ -239,3 +239,17 @@ footer{
 .meet-summary-copy p{margin:5px 0 0;color:var(--muted);font-size:10px;line-height:1.35}
 .mobile-meets{padding:25px 17px 7px;border-bottom:1px solid var(--ink);background:#fff}
 .mobile-meets h2{font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:25px;margin:0 0 8px}
+
+
+/* Draft 10 — explicit Upcoming Meets separation */
+.meets-sidebar{
+  margin-top:34px!important;
+  padding-top:0;
+}
+.meets-sidebar .aside-head{
+  border-top:2px solid var(--ink);
+  padding-top:18px;
+}
+.meet-summary{
+  min-height:62px;
+}
