@@ -253,3 +253,49 @@ footer{
 .meet-summary{
   min-height:62px;
 }
+
+
+/* Draft 11 — editorial three-column desktop layout */
+@media(min-width:801px){
+  .calendar-layout.three-column{
+    display:grid;
+    grid-template-columns:205px minmax(0,1fr) 245px;
+    align-items:stretch;
+  }
+  .calendar-layout.three-column .left-sidebar{
+    grid-column:1;
+    grid-row:1;
+    border-left:0;
+    border-right:1px solid var(--ink);
+    padding:19px 18px 24px;
+    background:#f6f6f4;
+  }
+  .calendar-layout.three-column .calendar-area{
+    grid-column:2;
+    grid-row:1;
+  }
+  .calendar-layout.three-column .right-sidebar{
+    grid-column:3;
+    grid-row:1;
+    border-left:1px solid var(--ink);
+    padding:19px 18px 24px;
+    background:#f6f6f4;
+  }
+  .left-sidebar .aside-head h2,
+  .right-sidebar .aside-head h2{
+    font-size:22px;
+  }
+  .left-sidebar .meet-summary{
+    grid-template-columns:50px minmax(0,1fr);
+    gap:9px;
+  }
+  .left-sidebar .meet-summary-date strong{
+    font-size:20px;
+  }
+  .left-sidebar .meet-summary-copy b{
+    font-size:13px;
+  }
+  .day{
+    min-height:128px;
+  }
+}

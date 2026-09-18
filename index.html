@@ -67,7 +67,15 @@
   </section>
 
   <section class="desktop-calendar">
-    <div class="calendar-layout">
+    <div class="calendar-layout three-column">
+      <aside class="left-sidebar">
+        <div class="aside-head">
+          <p class="kicker">ON DECK</p>
+          <h2>Upcoming Meets</h2>
+        </div>
+        <div id="meets-list"></div>
+      </aside>
+
       <div class="calendar-area">
         <div class="week">
           <b>Sun</b><b>Mon</b><b>Tue</b><b>Wed</b><b>Thu</b><b>Fri</b><b>Sat</b>
@@ -75,19 +83,12 @@
         <div id="grid" class="grid"></div>
       </div>
 
-      <aside>
+      <aside class="right-sidebar">
         <div class="aside-head">
           <p class="kicker">KEEP AN EYE ON</p>
           <h2>Important Dates</h2>
         </div>
         <div id="important"></div>
-        <section class="meets-sidebar">
-          <div class="aside-head meets-head">
-            <p class="kicker">ON DECK</p>
-            <h2>Upcoming Meets</h2>
-          </div>
-          <div id="meets-list"></div>
-        </section>
       </aside>
     </div>
   </section>
