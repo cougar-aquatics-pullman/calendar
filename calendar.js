@@ -166,7 +166,7 @@ function renderDesktop(){
       let x=document.createElement("div");
       x.className="ev "+e.type;
 
-      const t=compactEventTime(e);
+      const t=e.type==="meet" ? "" : compactEventTime(e);
       const title=displayTitle(e);
 
       if(e.color) x.style.borderLeftColor=e.color;
