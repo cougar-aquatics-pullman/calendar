@@ -189,7 +189,7 @@ function renderImportant(selector){
   const today=localDateString(new Date());
   const list=events
     .filter(e=>e.type==="important" && e.date>=today)
-    .slice(0,8);
+    .slice(0,12);
 
   box.innerHTML="";
 
