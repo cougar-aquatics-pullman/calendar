@@ -480,18 +480,6 @@
     "source": "google"
   },
   {
-    "date": "2026-10-10",
-    "start": "2026-10-10T16:00:00.000Z",
-    "end": "2026-10-10T17:30:00.000Z",
-    "title": "Nat (swim)",
-    "type": "practice",
-    "detail": "9:00 AM - 10:30 AM",
-    "location": "",
-    "allDay": false,
-    "color": "#92E1C0",
-    "source": "google"
-  },
-  {
     "date": "2026-10-12",
     "start": "2026-10-12T12:30:00.000Z",
     "end": "2026-10-12T14:00:00.000Z",
@@ -546,18 +534,6 @@
     "title": "Nat (weights)",
     "type": "practice",
     "detail": "6:00 AM - 7:00 AM",
-    "location": "",
-    "allDay": false,
-    "color": "#92E1C0",
-    "source": "google"
-  },
-  {
-    "date": "2026-10-14",
-    "start": "2026-10-15T00:00:00.000Z",
-    "end": "2026-10-15T02:00:00.000Z",
-    "title": "PRACTICE: Cb, Cg, Sr, Nat",
-    "type": "practice",
-    "detail": "5:00 PM - 7:00 PM",
     "location": "",
     "allDay": false,
     "color": "#92E1C0",
@@ -1428,18 +1404,6 @@
     "source": "google"
   },
   {
-    "date": "2026-11-26",
-    "start": "2026-11-27T00:00:00.000Z",
-    "end": "2026-11-27T02:00:00.000Z",
-    "title": "PRACTICE: Jr, Cg, Sr, Nat",
-    "type": "practice",
-    "detail": "4:00 PM - 6:00 PM",
-    "location": "",
-    "allDay": false,
-    "color": "#92E1C0",
-    "source": "google"
-  },
-  {
     "date": "2026-11-27",
     "start": "2026-11-27T00:00:00.000Z",
     "end": "2026-11-28T00:00:00.000Z",
@@ -1449,30 +1413,6 @@
     "location": "",
     "allDay": true,
     "color": "#F83A22",
-    "source": "google"
-  },
-  {
-    "date": "2026-11-27",
-    "start": "2026-11-27T13:30:00.000Z",
-    "end": "2026-11-27T15:00:00.000Z",
-    "title": "Nat (swim)",
-    "type": "practice",
-    "detail": "5:30 AM - 7:00 AM",
-    "location": "",
-    "allDay": false,
-    "color": "#92E1C0",
-    "source": "google"
-  },
-  {
-    "date": "2026-11-27",
-    "start": "2026-11-28T00:00:00.000Z",
-    "end": "2026-11-28T02:00:00.000Z",
-    "title": "PRACTICE: Cb, Jr, Cg, Sr, Nat",
-    "type": "practice",
-    "detail": "4:00 PM - 6:00 PM",
-    "location": "",
-    "allDay": false,
-    "color": "#92E1C0",
     "source": "google"
   },
   {
