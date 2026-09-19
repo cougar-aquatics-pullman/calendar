@@ -4,116 +4,51 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex">
-<title>Cougar Aquatics — Club Calendar</title>
+<title>Cougar Aquatics - Club Calendar</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header class="masthead">
-  <div class="mast-inner">
-    <img src="cougar-aquatics-logo.png" alt="Cougar Aquatics" class="logo">
-    <div class="mast-label">CLUB CALENDAR</div>
+<header class="site-header">
+  <div class="header-inner">
+    <img src="cougar-aquatics-logo.png" alt="Cougar Aquatics" class="header-logo">
+    <h1 class="header-title">Club Calendar</h1>
+    <div class="header-season">2026-27 SEASON</div>
   </div>
 </header>
-
 <main>
-  <section class="title-row">
-    <div>
-      <p class="kicker title-kicker">COUGAR AQUATICS</p>
-      <h1>Club Calendar</h1>
-    </div>
-    <div class="season-note">2026–27 SEASON</div>
-  </section>
-
-  <div class="rule"></div>
-
   <section class="controls">
     <div class="month-nav">
       <button id="prev" aria-label="Previous month">←</button>
       <h2 id="month"></h2>
       <button id="next" aria-label="Next month">→</button>
     </div>
-
     <div class="filters category-filters" aria-label="Calendar filters">
-      <button data-f="all" class="active category-filter all-filter">
-        <span class="filter-mark all-mark"></span>
-        <span>All</span>
-      </button>
-      <button data-f="meet" class="category-filter" data-category="meet">
-        <span class="filter-mark"></span>
-        <span>Meets</span>
-      </button>
-      <button data-f="practice" class="category-filter" data-category="practice">
-        <span class="filter-mark"></span>
-        <span>Practices</span>
-      </button>
-      <button data-f="club" class="category-filter" data-category="club">
-        <span class="filter-mark"></span>
-        <span>Club Events</span>
-      </button>
-      <button data-f="important" class="category-filter" data-category="important">
-        <span class="filter-mark"></span>
-        <span>Important Dates</span>
-      </button>
+      <button data-f="all" class="active category-filter all-filter"><span class="filter-mark all-mark"></span><span>All</span></button>
+      <button data-f="meet" class="category-filter" data-category="meet"><span class="filter-mark"></span><span>Meets</span></button>
+      <button data-f="practice" class="category-filter" data-category="practice"><span class="filter-mark"></span><span>Practices</span></button>
+      <button data-f="club" class="category-filter" data-category="club"><span class="filter-mark"></span><span>Club Events</span></button>
+      <button data-f="important" class="category-filter" data-category="important"><span class="filter-mark"></span><span>Important Dates</span></button>
     </div>
   </section>
-
   <section class="group-key" aria-label="Practice group abbreviations">
     <span class="group-key-title">PRACTICE GROUPS</span>
-    <span><b>Cb</b> = Cubs</span>
-    <span><b>Jr</b> = Juniors</span>
-    <span><b>Cg</b> = Cougs</span>
-    <span><b>Sr</b> = Seniors</span>
-    <span><b>Nat</b> = National</span>
+    <span><b>Cb</b> = Cubs</span><span><b>Jr</b> = Juniors</span><span><b>Cg</b> = Cougs</span><span><b>Sr</b> = Seniors</span><span><b>Nat</b> = National</span>
   </section>
-
   <section class="desktop-calendar">
     <div class="calendar-layout three-column">
-      <aside class="left-sidebar">
-        <div class="aside-head">
-          <h2>Upcoming Meets</h2>
-        </div>
-        <div id="meets-list"></div>
-      </aside>
-
-      <div class="calendar-area">
-        <div class="week">
-          <b>Sun</b><b>Mon</b><b>Tue</b><b>Wed</b><b>Thu</b><b>Fri</b><b>Sat</b>
-        </div>
-        <div id="grid" class="grid"></div>
-      </div>
-
-      <aside class="right-sidebar">
-        <div class="aside-head">
-          <h2>Important Dates</h2>
-        </div>
-        <div id="important"></div>
-      </aside>
+      <aside class="left-sidebar"><div class="aside-head"><h2>Upcoming Meets</h2></div><div id="meets-list"></div></aside>
+      <div class="calendar-area"><div class="week"><b>Sun</b><b>Mon</b><b>Tue</b><b>Wed</b><b>Thu</b><b>Fri</b><b>Sat</b></div><div id="grid" class="grid"></div></div>
+      <aside class="right-sidebar"><div class="aside-head"><h2>Important Dates</h2></div><div id="important"></div></aside>
     </div>
   </section>
-
   <section class="mobile-calendar">
-    <div class="mobile-important">
-      <h2>Important Dates</h2>
-      <div id="mobile-important-list"></div>
-    </div>
-
-    <div class="mobile-meets">
-      <h2>Upcoming Meets</h2>
-      <div id="mobile-meets-list"></div>
-    </div>
-
-    <div class="mobile-agenda-head">
-      <p class="kicker">THIS MONTH</p>
-      <h2>Schedule</h2>
-    </div>
+    <div class="mobile-important"><h2>Important Dates</h2><div id="mobile-important-list"></div></div>
+    <div class="mobile-meets"><h2>Upcoming Meets</h2><div id="mobile-meets-list"></div></div>
+    <div class="mobile-agenda-head"><p class="kicker">THIS MONTH</p><h2>Schedule</h2></div>
     <div id="agenda" class="agenda"></div>
   </section>
 </main>
-
-<footer>
-  <span>COUGAR AQUATICS</span>
-</footer>
-
+<footer><span>COUGAR AQUATICS</span></footer>
 <script src="calendar.js"></script>
 </body>
 </html>

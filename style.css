@@ -16,20 +16,46 @@ body{
   -webkit-font-smoothing:antialiased;
 }
 button{font:inherit}
-.masthead{background:#fff;border-bottom:1px solid #e7e7e5}
-.mast-inner{
-  max-width:1180px;margin:auto;padding:18px 26px;
-  display:flex;align-items:center;justify-content:space-between;gap:24px
+.site-header{
+  background:#fff;
+  border-bottom:3px solid var(--ink);
 }
-.logo{display:block;width:235px;max-width:52vw;height:auto}
-.mast-label{font-size:11px;letter-spacing:.22em;font-weight:700;color:#666}
-main{max-width:1180px;margin:auto;padding:48px 26px 70px}
-.title-row{display:flex;justify-content:space-between;align-items:flex-end;gap:30px}
+.header-inner{
+  max-width:1180px;
+  margin:auto;
+  padding:28px 26px;
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr;
+  align-items:center;
+  gap:30px;
+}
+.header-logo{
+  display:block;
+  width:235px;
+  max-width:100%;
+  height:auto;
+  justify-self:start;
+}
+.header-title{
+  font-family:Georgia,"Times New Roman",serif;
+  font-size:38px;
+  line-height:1;
+  font-weight:400;
+  letter-spacing:-.035em;
+  margin:0;
+  text-align:center;
+  white-space:nowrap;
+}
+.header-season{
+  justify-self:end;
+  font-size:10px;
+  letter-spacing:.18em;
+  font-weight:700;
+  color:#777;
+  white-space:nowrap;
+}
+main{max-width:1180px;margin:auto;padding:20px 26px 70px}
 .kicker{margin:0 0 8px;color:var(--red);font-size:10px;letter-spacing:.21em;font-weight:800}
-.title-kicker{font-size:15px;letter-spacing:.16em;margin-bottom:9px}
-h1{font-family:Georgia,"Times New Roman",serif;font-size:50px;font-weight:400;letter-spacing:-.035em;margin:0}
-.season-note{font-size:10px;letter-spacing:.18em;font-weight:700;color:#777;padding-bottom:7px}
-.rule{height:3px;background:var(--ink);margin:29px 0 20px}
 .controls{display:flex;align-items:center;justify-content:space-between;gap:22px;margin-bottom:10px}
 .month-nav{display:flex;align-items:center;gap:14px}
 .month-nav h2{font-family:Georgia,"Times New Roman",serif;font-size:25px;font-weight:400;min-width:205px;text-align:center;margin:0}
@@ -157,19 +183,15 @@ footer{
 .agenda-empty{padding:24px 0;color:var(--muted);font-family:Georgia,"Times New Roman",serif;font-style:italic}
 
 @media(max-width:800px){
-  .season-note{display:none}.title-row{display:block}
   .controls{align-items:flex-start;flex-direction:column;margin-bottom:8px}
   .filters{justify-content:flex-start;gap:2px}
   .filters button{padding:8px 8px;font-size:11px}
   .group-key{padding-top:3px;padding-bottom:15px;gap:5px 13px}
   .desktop-calendar{display:none}
   .mobile-calendar{display:block}
-  h1{font-size:41px}
 }
 @media(max-width:500px){
-  .mast-inner{padding:15px 17px}.logo{width:205px}.mast-label{display:none}
-  main{padding:34px 17px 55px}
-  .title-kicker{font-size:13px}
+  main{padding:18px 17px 55px}
   .month-nav{width:100%;justify-content:space-between}
   .month-nav h2{font-size:23px;min-width:0}
   .agenda-event{grid-template-columns:80px 1fr;margin-left:0}
@@ -305,5 +327,31 @@ footer{
   }
   .day{
     min-height:128px;
+  }
+}
+
+
+/* Compact responsive site header */
+@media(max-width:800px){
+  .header-inner{
+    display:block;
+    padding:20px 17px 18px;
+  }
+  .header-logo{
+    width:205px;
+    max-width:70vw;
+    margin-bottom:20px;
+  }
+  .header-title{
+    font-size:34px;
+    text-align:left;
+    margin-bottom:8px;
+  }
+  .header-season{
+    font-size:9px;
+    text-align:left;
+  }
+  main{
+    padding-top:18px;
   }
 }
