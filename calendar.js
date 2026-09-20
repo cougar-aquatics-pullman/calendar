@@ -129,7 +129,6 @@ function render(){
   renderImportant("#important");
   renderImportant("#mobile-important-list");
   renderMeets("#meets-list");
-  renderClubEvents("#events-list");
   renderMeets("#mobile-meets-list");
   renderAgenda();
 }
@@ -325,38 +324,6 @@ function renderMeets(selector){
         (group.location?`<p>${escapeHtml(group.location)}</p>`:"")+
       `</div>`;
 
-    box.appendChild(row);
-  });
-}
-
-function renderClubEvents(selector){
-  const box=document.querySelector(selector);
-  if(!box) return;
-
-  const today=localDateString(new Date());
-  const list=events
-    .filter(e=>e.type==="club" && e.date>=today)
-    .slice()
-    .sort((a,b)=>a.date.localeCompare(b.date) || (a.start||"").localeCompare(b.start||""))
-    .slice(0,6);
-
-  box.innerHTML="";
-  if(!list.length){
-    box.innerHTML='<p class="agenda-empty">No upcoming events.</p>';
-    return;
-  }
-
-  list.forEach(e=>{
-    const d=parseDate(e.date);
-    const row=document.createElement("div");
-    row.className="meet-summary club-summary";
-    const month=names[d.getMonth()].slice(0,3).toUpperCase();
-    const time=compactEventTime(e);
-    row.innerHTML=
-      `<div class="meet-summary-date"><em>${escapeHtml(month)}</em><strong>${d.getDate()}</strong></div>`+
-      `<div class="meet-summary-copy"><b>${escapeHtml(displayTitle(e))}</b>`+
-      (time?`<p class="club-summary-time">${escapeHtml(time)}</p>`:"")+
-      (e.location?`<p>${escapeHtml(e.location)}</p>`:"")+`</div>`;
     box.appendChild(row);
   });
 }
