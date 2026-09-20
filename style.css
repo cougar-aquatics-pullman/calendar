@@ -355,3 +355,9 @@ footer{
     padding-top:18px;
   }
 }
+
+
+/* Upcoming Club Events below Upcoming Meets */
+.upcoming-events-section{margin-top:34px}
+.upcoming-events-section .aside-head{border-top:2px solid var(--ink);padding-top:18px}
+.club-summary-time{font-weight:800;color:#313336}
