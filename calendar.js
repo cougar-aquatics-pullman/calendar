@@ -160,6 +160,7 @@ function renderDesktop(){
     let ds=`${yy}-${String(mm+1).padStart(2,"0")}-${String(d).padStart(2,"0")}`;
     let c=document.createElement("div");
     c.className="day"+(mut?" muted":"");
+    if(ds===localDateString(new Date())) c.classList.add("today");
     c.innerHTML="<b>"+d+"</b>";
 
     filtered().filter(e=>e.date===ds).forEach(e=>{

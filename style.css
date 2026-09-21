@@ -355,3 +355,16 @@ footer{
     padding-top:18px;
   }
 }
+
+.day.today > b{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  width:24px;
+  height:24px;
+  margin:-5px 0 0 -5px;
+  border:2px solid var(--red);
+  border-radius:50%;
+  color:var(--red);
+  font-weight:700;
+}
