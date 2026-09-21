@@ -132,18 +132,6 @@
     "source": "google"
   },
   {
-    "date": "2026-09-23",
-    "start": "2026-09-24T00:00:00.000Z",
-    "end": "2026-09-24T02:00:00.000Z",
-    "title": "PRACTICE: Cb, Cg, Sr, Nat",
-    "type": "practice",
-    "detail": "5:00 PM - 7:00 PM",
-    "location": "",
-    "allDay": false,
-    "color": "#92E1C0",
-    "source": "google"
-  },
-  {
     "date": "2026-09-24",
     "start": "2026-09-25T00:00:00.000Z",
     "end": "2026-09-25T02:00:00.000Z",
@@ -534,18 +522,6 @@
     "title": "Nat (weights)",
     "type": "practice",
     "detail": "6:00 AM - 7:00 AM",
-    "location": "",
-    "allDay": false,
-    "color": "#92E1C0",
-    "source": "google"
-  },
-  {
-    "date": "2026-10-14",
-    "start": "2026-10-15T00:00:00.000Z",
-    "end": "2026-10-15T02:00:00.000Z",
-    "title": "PRACTICE: Cb, Cg, Sr, Nat",
-    "type": "practice",
-    "detail": "5:00 PM - 7:00 PM",
     "location": "",
     "allDay": false,
     "color": "#92E1C0",
@@ -1008,18 +984,6 @@
     "source": "google"
   },
   {
-    "date": "2026-11-06",
-    "start": "2026-11-07T01:00:00.000Z",
-    "end": "2026-11-07T03:00:00.000Z",
-    "title": "PRACTICE: Cb,Jr, Cg, Sr, Nat",
-    "type": "practice",
-    "detail": "5:00 PM - 7:00 PM",
-    "location": "",
-    "allDay": false,
-    "color": "#92E1C0",
-    "source": "google"
-  },
-  {
     "date": "2026-11-07",
     "start": "2026-11-07T16:00:00.000Z",
     "end": "2026-11-07T17:00:00.000Z",
@@ -1416,18 +1380,6 @@
     "source": "google"
   },
   {
-    "date": "2026-11-26",
-    "start": "2026-11-27T01:00:00.000Z",
-    "end": "2026-11-27T03:00:00.000Z",
-    "title": "PRACTICE: Jr, Cg, Sr, Nat",
-    "type": "practice",
-    "detail": "5:00 PM - 7:00 PM",
-    "location": "",
-    "allDay": false,
-    "color": "#92E1C0",
-    "source": "google"
-  },
-  {
     "date": "2026-11-27",
     "start": "2026-11-27T00:00:00.000Z",
     "end": "2026-11-28T00:00:00.000Z",
@@ -1437,18 +1389,6 @@
     "location": "",
     "allDay": true,
     "color": "#F83A22",
-    "source": "google"
-  },
-  {
-    "date": "2026-11-27",
-    "start": "2026-11-28T01:00:00.000Z",
-    "end": "2026-11-28T03:00:00.000Z",
-    "title": "PRACTICE: Cb,Jr, Cg, Sr, Nat",
-    "type": "practice",
-    "detail": "5:00 PM - 7:00 PM",
-    "location": "",
-    "allDay": false,
-    "color": "#92E1C0",
     "source": "google"
   },
   {
@@ -1956,18 +1896,6 @@
     "source": "google"
   },
   {
-    "date": "2026-12-24",
-    "start": "2026-12-25T01:00:00.000Z",
-    "end": "2026-12-25T03:00:00.000Z",
-    "title": "PRACTICE: Jr, Cg, Sr, Nat",
-    "type": "practice",
-    "detail": "5:00 PM - 7:00 PM",
-    "location": "",
-    "allDay": false,
-    "color": "#92E1C0",
-    "source": "google"
-  },
-  {
     "date": "2026-12-25",
     "start": "2026-12-25T00:00:00.000Z",
     "end": "2026-12-26T00:00:00.000Z",
@@ -1977,18 +1905,6 @@
     "location": "",
     "allDay": true,
     "color": "#F83A22",
-    "source": "google"
-  },
-  {
-    "date": "2026-12-25",
-    "start": "2026-12-26T01:00:00.000Z",
-    "end": "2026-12-26T03:00:00.000Z",
-    "title": "PRACTICE: Cb,Jr, Cg, Sr, Nat",
-    "type": "practice",
-    "detail": "5:00 PM - 7:00 PM",
-    "location": "",
-    "allDay": false,
-    "color": "#92E1C0",
     "source": "google"
   },
   {
