@@ -188,20 +188,53 @@ function renderImportant(selector){
   if(!box) return;
 
   const today=localDateString(new Date());
-  const list=events
+
+  const source=events
     .filter(e=>e.type==="important" && e.date>=today)
-    .slice(0,12);
+    .slice()
+    .sort((a,b)=>
+      a.date.localeCompare(b.date) ||
+      (a.title||"").localeCompare(b.title||"")
+    );
+
+  // Merge identical Important Dates on consecutive days.
+  const grouped=[];
+
+  source.forEach(e=>{
+    const last=grouped[grouped.length-1];
+
+    if(
+      last &&
+      last.title===e.title &&
+      nextDateString(last.endDate)===e.date
+    ){
+      last.endDate=e.date;
+      return;
+    }
+
+    grouped.push({
+      ...e,
+      startDate:e.date,
+      endDate:e.date
+    });
+  });
+
+  // Limit AFTER grouping, so a 3-day break counts as one item.
+  const list=grouped.slice(0,12);
 
   box.innerHTML="";
 
   if(!list.length){
-    box.innerHTML='<p class="agenda-empty">No upcoming important dates.</p>';
+    box.innerHTML=
+      '<p class="agenda-empty">No upcoming important dates.</p>';
     return;
   }
 
   list.forEach(e=>{
-    let d=parseDate(e.date);
-    let x=document.createElement("div");
+    const start=parseDate(e.startDate);
+    const end=parseDate(e.endDate);
+
+    const x=document.createElement("div");
     x.className="imp";
 
     const t=compactEventTime(e);
@@ -221,8 +254,29 @@ function renderImportant(selector){
         (e.location?`<p>${escapeHtml(e.location)}</p>`:"");
     }
 
+    const month=
+      names[start.getMonth()]
+        .slice(0,3)
+        .toUpperCase();
+
+    let dayLabel=
+      String(start.getDate());
+
+    if(e.startDate!==e.endDate){
+      if(
+        start.getMonth()===end.getMonth() &&
+        start.getFullYear()===end.getFullYear()
+      ){
+        dayLabel=
+          `${start.getDate()}-${end.getDate()}`;
+      }else{
+        dayLabel=
+          `${start.getDate()}-${names[end.getMonth()].slice(0,3).toUpperCase()} ${end.getDate()}`;
+      }
+    }
+
     x.innerHTML=
-      `<div class="date"><em>${names[d.getMonth()].slice(0,3).toUpperCase()}</em><strong>${d.getDate()}</strong></div>`+
+      `<div class="date"><em>${month}</em><strong>${dayLabel}</strong></div>`+
       `<div>${copy}</div>`;
 
     box.appendChild(x);
