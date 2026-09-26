@@ -127,8 +127,11 @@ aside{border-left:1px solid var(--ink);padding:19px 21px 24px;background:#f6f6f4
   font-family:Georgia,"Times New Roman",serif;font-weight:400;font-size:25px;margin:0
 }
 .imp{
-  display:grid;grid-template-columns:46px 1fr;gap:13px;
+  display:grid;grid-template-columns:58px 1fr;gap:13px;
   padding:15px 0;border-bottom:1px solid #d9d9d6
+}
+.imp .date strong{
+  white-space:nowrap;
 }
 .date{text-align:left}
 .date em{display:block;font-style:normal;color:var(--red);font-size:9px;letter-spacing:.12em;font-weight:800}
