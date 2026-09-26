@@ -316,7 +316,7 @@ function groupedUpcomingMeets(){
 
     if(
       last &&
-      normalizeImportantTitle(last.title)===normalizeImportantTitle(e.title) &&
+      last.title===e.title &&
       nextDateString(last.endDate)===e.date
     ){
       last.endDate=e.date;
