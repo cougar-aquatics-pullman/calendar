@@ -135,7 +135,7 @@ aside{border-left:1px solid var(--ink);padding:19px 21px 24px;background:#f6f6f4
 }
 .date{text-align:left}
 .date em{display:block;font-style:normal;color:var(--red);font-size:9px;letter-spacing:.12em;font-weight:800}
-.date strong{font-family:Georgia,"Times New Roman",serif;font-size:25px;font-weight:400}
+.date strong{font-family:Georgia,"Times New Roman",serif;font-size:21px;font-weight:400}
 .imp b{font-family:Georgia,"Times New Roman",serif;font-size:14px;font-weight:600}
 .imp .imp-time{font-family:inherit;font-size:11px;font-weight:800;color:#313336;display:block;margin-top:4px}
 .imp-action{display:block;margin-top:4px;color:var(--muted);font-size:11px;line-height:1.35}
