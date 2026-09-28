@@ -432,6 +432,18 @@
     "source": "google"
   },
   {
+    "date": "2026-10-09",
+    "start": "2026-10-10T06:59:00.000Z",
+    "end": "2026-10-10T06:59:00.000Z",
+    "title": "Entries Due - VAN Trick-or-Treat",
+    "type": "important",
+    "detail": "11:59 PM - 11:59 PM",
+    "location": "",
+    "allDay": false,
+    "color": "#F83A22",
+    "source": "google"
+  },
+  {
     "date": "2026-10-10",
     "start": "2026-10-10T00:00:00.000Z",
     "end": "2026-10-11T00:00:00.000Z",
