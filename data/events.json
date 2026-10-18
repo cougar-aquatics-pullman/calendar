@@ -528,30 +528,6 @@
     "source": "google"
   },
   {
-    "date": "2026-10-16",
-    "start": "2026-10-16T07:00:00.000Z",
-    "end": "2026-10-18T07:00:00.000Z",
-    "title": "COUG Fall Fury",
-    "type": "meet",
-    "detail": "12:00 AM  -  12:00 AM",
-    "location": "",
-    "allDay": false,
-    "color": "#9f1723",
-    "source": "gomotion"
-  },
-  {
-    "date": "2026-10-17",
-    "start": "2026-10-16T07:00:00.000Z",
-    "end": "2026-10-18T07:00:00.000Z",
-    "title": "COUG Fall Fury",
-    "type": "meet",
-    "detail": "12:00 AM  -  12:00 AM",
-    "location": "",
-    "allDay": false,
-    "color": "#9f1723",
-    "source": "gomotion"
-  },
-  {
     "date": "2026-10-17",
     "start": "2026-10-17T00:00:00.000Z",
     "end": "2026-10-18T00:00:00.000Z",
@@ -574,18 +550,6 @@
     "allDay": true,
     "color": "#FAD165",
     "source": "stack"
-  },
-  {
-    "date": "2026-10-18",
-    "start": "2026-10-16T07:00:00.000Z",
-    "end": "2026-10-18T07:00:00.000Z",
-    "title": "COUG Fall Fury",
-    "type": "meet",
-    "detail": "12:00 AM  -  12:00 AM",
-    "location": "",
-    "allDay": false,
-    "color": "#9f1723",
-    "source": "gomotion"
   },
   {
     "date": "2026-10-18",
