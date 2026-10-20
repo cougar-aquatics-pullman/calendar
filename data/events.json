@@ -637,6 +637,18 @@
   },
   {
     "date": "2026-10-23",
+    "start": "2026-10-23T00:00:00.000Z",
+    "end": "2026-10-24T00:00:00.000Z",
+    "title": "Nationals Swim practice Canceled (Trick or Treat Meet)",
+    "type": "important",
+    "detail": "All day",
+    "location": "",
+    "allDay": true,
+    "color": "#F83A22",
+    "source": "google"
+  },
+  {
+    "date": "2026-10-23",
     "start": "2026-10-23T12:30:00.000Z",
     "end": "2026-10-23T14:00:00.000Z",
     "title": "Nat (swim)",
@@ -657,6 +669,18 @@
     "location": "",
     "allDay": false,
     "color": "#92E1C0",
+    "source": "google"
+  },
+  {
+    "date": "2026-10-24",
+    "start": "2026-10-24T00:00:00.000Z",
+    "end": "2026-10-25T00:00:00.000Z",
+    "title": "Nationals Swim practice Canceled (Trick or Treat Meet)",
+    "type": "important",
+    "detail": "All day",
+    "location": "",
+    "allDay": true,
+    "color": "#F83A22",
     "source": "google"
   },
   {
