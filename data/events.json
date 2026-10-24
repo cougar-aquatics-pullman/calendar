@@ -540,18 +540,6 @@
     "source": "google"
   },
   {
-    "date": "2026-10-17",
-    "start": "2026-10-17T07:00:00.000Z",
-    "end": "2026-10-18T07:00:00.000Z",
-    "title": "Fall Fury - Saturday Hospitality ",
-    "type": "club",
-    "detail": "All day",
-    "location": "",
-    "allDay": true,
-    "color": "#FAD165",
-    "source": "stack"
-  },
-  {
     "date": "2026-10-18",
     "start": "2026-10-18T07:00:00.000Z",
     "end": "2026-10-19T07:00:00.000Z",
