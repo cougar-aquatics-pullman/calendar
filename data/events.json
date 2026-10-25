@@ -684,18 +684,6 @@
     "source": "stack"
   },
   {
-    "date": "2026-10-25",
-    "start": "2026-10-25T07:00:00.000Z",
-    "end": "2026-10-25T07:00:00.000Z",
-    "title": "VAN Trick-or-Treat",
-    "type": "meet",
-    "detail": "12:00 AM  -  12:00 AM",
-    "location": "",
-    "allDay": false,
-    "color": "#9f1723",
-    "source": "gomotion"
-  },
-  {
     "date": "2026-10-26",
     "start": "2026-10-26T12:30:00.000Z",
     "end": "2026-10-26T14:00:00.000Z",
