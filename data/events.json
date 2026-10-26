@@ -3217,6 +3217,18 @@
   },
   {
     "date": "2027-03-18",
+    "start": "2027-03-18T07:00:00.000Z",
+    "end": "2027-03-21T07:00:00.000Z",
+    "title": "2027 NW Speedo Sectionals",
+    "type": "meet",
+    "detail": "12:00 AM  -  12:00 AM",
+    "location": "",
+    "allDay": false,
+    "color": "#9f1723",
+    "source": "gomotion"
+  },
+  {
+    "date": "2027-03-18",
     "start": "2027-03-19T00:00:00.000Z",
     "end": "2027-03-19T02:00:00.000Z",
     "title": "PRACTICE: Jr, Cg, Sr, Nat",
@@ -3226,6 +3238,18 @@
     "allDay": false,
     "color": "#92E1C0",
     "source": "google"
+  },
+  {
+    "date": "2027-03-19",
+    "start": "2027-03-18T07:00:00.000Z",
+    "end": "2027-03-21T07:00:00.000Z",
+    "title": "2027 NW Speedo Sectionals",
+    "type": "meet",
+    "detail": "12:00 AM  -  12:00 AM",
+    "location": "",
+    "allDay": false,
+    "color": "#9f1723",
+    "source": "gomotion"
   },
   {
     "date": "2027-03-19",
@@ -3253,6 +3277,18 @@
   },
   {
     "date": "2027-03-20",
+    "start": "2027-03-18T07:00:00.000Z",
+    "end": "2027-03-21T07:00:00.000Z",
+    "title": "2027 NW Speedo Sectionals",
+    "type": "meet",
+    "detail": "12:00 AM  -  12:00 AM",
+    "location": "",
+    "allDay": false,
+    "color": "#9f1723",
+    "source": "gomotion"
+  },
+  {
+    "date": "2027-03-20",
     "start": "2027-03-20T15:00:00.000Z",
     "end": "2027-03-20T16:00:00.000Z",
     "title": "Nat (weights)",
@@ -3274,6 +3310,18 @@
     "allDay": false,
     "color": "#92E1C0",
     "source": "google"
+  },
+  {
+    "date": "2027-03-21",
+    "start": "2027-03-18T07:00:00.000Z",
+    "end": "2027-03-21T07:00:00.000Z",
+    "title": "2027 NW Speedo Sectionals",
+    "type": "meet",
+    "detail": "12:00 AM  -  12:00 AM",
+    "location": "",
+    "allDay": false,
+    "color": "#9f1723",
+    "source": "gomotion"
   },
   {
     "date": "2027-03-22",
