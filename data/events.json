@@ -660,18 +660,6 @@
     "source": "google"
   },
   {
-    "date": "2026-10-24",
-    "start": "2026-10-25T01:30:00.000Z",
-    "end": "2026-10-25T03:00:00.000Z",
-    "title": "Football Game Cleanup-10/24/2026",
-    "type": "club",
-    "detail": "6:30 PM  -  8:00 PM  |  1775 NE Stadium Way, Pullman, WA 99164, USA",
-    "location": "1775 NE Stadium Way, Pullman, WA 99164, USA",
-    "allDay": false,
-    "color": "#FAD165",
-    "source": "stack"
-  },
-  {
     "date": "2026-10-26",
     "start": "2026-10-26T12:30:00.000Z",
     "end": "2026-10-26T14:00:00.000Z",
