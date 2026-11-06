@@ -972,6 +972,18 @@
     "source": "google"
   },
   {
+    "date": "2026-11-11",
+    "start": "2026-11-12T07:59:00.000Z",
+    "end": "2026-11-12T07:59:00.000Z",
+    "title": "Entries Due - SWAT Winter Invite",
+    "type": "important",
+    "detail": "11:59 PM  -  11:59 PM",
+    "location": "",
+    "allDay": false,
+    "color": "#F83A22",
+    "source": "google"
+  },
+  {
     "date": "2026-11-12",
     "start": "2026-11-13T01:00:00.000Z",
     "end": "2026-11-13T03:00:00.000Z",
